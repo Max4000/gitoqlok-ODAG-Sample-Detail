@@ -1,0 +1,12 @@
+{
+  "qName": "Origin Code",
+  "qTags": [
+    "$key",
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "Flights",
+    "OriginAirports"
+  ]
+}

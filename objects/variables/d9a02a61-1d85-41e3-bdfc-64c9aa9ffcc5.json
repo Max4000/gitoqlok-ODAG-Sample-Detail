@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "d9a02a61-1d85-41e3-bdfc-64c9aa9ffcc5",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "WHERE_PART",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": " WHERE FARE_CLASS IN ( -2 )"
+}

@@ -1,0 +1,13 @@
+{
+  "qInfo": {
+    "qId": "bd190327-de14-45ba-be28-a4902a8efd64",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "DEST",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  }
+}

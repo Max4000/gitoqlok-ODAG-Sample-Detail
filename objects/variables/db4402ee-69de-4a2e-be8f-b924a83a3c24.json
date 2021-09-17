@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "db4402ee-69de-4a2e-be8f-b924a83a3c24",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "FOLDER",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "lib://FlightData (server002_abaranovskiy)",
+  "qIsScriptCreated": true
+}

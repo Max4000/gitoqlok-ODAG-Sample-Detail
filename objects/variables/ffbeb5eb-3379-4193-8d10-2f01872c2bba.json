@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "ffbeb5eb-3379-4193-8d10-2f01872c2bba",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "odag_Fare Class",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "'X'",
+  "qIsScriptCreated": true
+}

@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "0e625944-4940-400c-9f99-ad56d66e4d29",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "TICKET_CARRIER_COLNAME",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "TICKET_CARRIER"
+}

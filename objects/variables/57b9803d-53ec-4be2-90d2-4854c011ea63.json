@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "57b9803d-53ec-4be2-90d2-4854c011ea63",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "YEAR_COLNAME",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "YEAR"
+}

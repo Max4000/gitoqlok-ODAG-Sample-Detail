@@ -1,0 +1,10 @@
+{
+  "qName": "DISTANCE",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "Flights"
+  ]
+}

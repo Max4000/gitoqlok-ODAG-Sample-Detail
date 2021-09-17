@@ -1,0 +1,10 @@
+{
+  "qName": "Fare Class Name",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "Fares"
+  ]
+}

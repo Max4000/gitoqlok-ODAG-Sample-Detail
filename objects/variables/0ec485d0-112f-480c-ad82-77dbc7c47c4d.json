@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "0ec485d0-112f-480c-ad82-77dbc7c47c4d",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "odagn_Year",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "2015",
+  "qIsScriptCreated": true
+}

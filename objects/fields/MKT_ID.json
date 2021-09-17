@@ -1,0 +1,10 @@
+{
+  "qName": "MKT_ID",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "Flights"
+  ]
+}

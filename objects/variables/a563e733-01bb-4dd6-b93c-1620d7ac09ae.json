@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "a563e733-01bb-4dd6-b93c-1620d7ac09ae",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "ORIGIN_COLNAME",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "ORIGIN"
+}

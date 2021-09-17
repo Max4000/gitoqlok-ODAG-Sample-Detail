@@ -1,0 +1,10 @@
+{
+  "qName": "Origin Name",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "OriginAirports"
+  ]
+}

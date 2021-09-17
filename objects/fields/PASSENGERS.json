@@ -1,0 +1,10 @@
+{
+  "qName": "PASSENGERS",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "Flights"
+  ]
+}

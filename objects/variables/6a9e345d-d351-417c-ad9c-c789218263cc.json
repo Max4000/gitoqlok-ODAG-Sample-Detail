@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "6a9e345d-d351-417c-ad9c-c789218263cc",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "T",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "FARE_CLASS_COLNAME"
+}

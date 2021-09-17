@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "15e78c0c-bbd2-4fdd-8685-f87dbf607a77",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "DEST_STATE_ABR_COLNAME",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "DEST_STATE_ABR"
+}

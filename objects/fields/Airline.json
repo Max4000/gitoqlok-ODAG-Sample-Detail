@@ -1,0 +1,10 @@
+{
+  "qName": "Airline",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "Airlines"
+  ]
+}

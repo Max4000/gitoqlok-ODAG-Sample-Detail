@@ -1,0 +1,10 @@
+{
+  "qName": "Origin State",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "Flights"
+  ]
+}

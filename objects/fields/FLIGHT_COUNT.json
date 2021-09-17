@@ -1,0 +1,10 @@
+{
+  "qName": "FLIGHT_COUNT",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "Flights"
+  ]
+}

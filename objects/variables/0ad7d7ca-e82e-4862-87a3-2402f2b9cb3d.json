@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "0ad7d7ca-e82e-4862-87a3-2402f2b9cb3d",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "odag_Quarter",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "'1'",
+  "qIsScriptCreated": true
+}

@@ -1,0 +1,12 @@
+{
+  "qName": "Ticket Carrier Code",
+  "qTags": [
+    "$key",
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "Flights",
+    "Airlines"
+  ]
+}

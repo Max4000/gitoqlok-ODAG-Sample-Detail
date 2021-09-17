@@ -1,0 +1,13 @@
+{
+  "qInfo": {
+    "qId": "1837a223-a37e-4c92-a2b5-0085de077ba0",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "FARE_CLASS",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  }
+}

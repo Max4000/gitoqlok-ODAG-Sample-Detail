@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "2b6f065e-b0cf-46e1-92e4-ca0ae7420c4c",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "odag_Origin Code",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "'LAX'",
+  "qIsScriptCreated": true
+}

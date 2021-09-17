@@ -1,0 +1,527 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "5022dd2b-8903-47d8-b5be-5ce2aaf178dd",
+      "qType": "masterobject"
+    },
+    "qMetaDef": {
+      "title": "Flight Details",
+      "description": "",
+      "tags": []
+    },
+    "qHyperCubeDef": {
+      "qDimensions": [
+        {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Airline"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "adYKnPq",
+            "othersLabel": "Others"
+          },
+          "qNullSuppression": true,
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {
+              "qv": "10"
+            },
+            "qOtherLimit": {
+              "qv": "0"
+            },
+            "qOtherLimitMode": "OTHER_GE_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qOtherLabel": {
+            "qv": "Others"
+          },
+          "qTotalLabel": {
+            "qv": "Totals"
+          },
+          "qCalcCond": {},
+          "qAttributeExpressions": [],
+          "qAttributeDimensions": [],
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          }
+        },
+        {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Origin Name"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "MzpJs",
+            "othersLabel": "Others"
+          },
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {
+              "qv": "10"
+            },
+            "qOtherLimit": {
+              "qv": "0"
+            },
+            "qOtherLimitMode": "OTHER_GE_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qOtherLabel": {
+            "qv": "Others"
+          },
+          "qTotalLabel": {
+            "qv": "Totals"
+          },
+          "qCalcCond": {},
+          "qAttributeExpressions": [],
+          "qAttributeDimensions": [],
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          }
+        },
+        {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Year"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByNumeric": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "uTgzGPK",
+            "othersLabel": "Others"
+          },
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {
+              "qv": "10"
+            },
+            "qOtherLimit": {
+              "qv": "0"
+            },
+            "qOtherLimitMode": "OTHER_GE_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qOtherLabel": {
+            "qv": "Others"
+          },
+          "qTotalLabel": {
+            "qv": "Totals"
+          },
+          "qCalcCond": {},
+          "qAttributeExpressions": [],
+          "qAttributeDimensions": [],
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          }
+        },
+        {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Quarter"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByNumeric": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "bfqx",
+            "othersLabel": "Others"
+          },
+          "qNullSuppression": true,
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {
+              "qv": "10"
+            },
+            "qOtherLimit": {
+              "qv": "0"
+            },
+            "qOtherLimitMode": "OTHER_GE_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qOtherLabel": {
+            "qv": "Others"
+          },
+          "qTotalLabel": {
+            "qv": "Totals"
+          },
+          "qCalcCond": {},
+          "qAttributeExpressions": [],
+          "qAttributeDimensions": [],
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          }
+        },
+        {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "MKT_ID"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByNumeric": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "mTDUAE",
+            "othersLabel": "Others"
+          },
+          "qNullSuppression": true,
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {
+              "qv": "10"
+            },
+            "qOtherLimit": {
+              "qv": "0"
+            },
+            "qOtherLimitMode": "OTHER_GE_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qOtherLabel": {
+            "qv": "Others"
+          },
+          "qTotalLabel": {
+            "qv": "Totals"
+          },
+          "qCalcCond": {},
+          "qAttributeExpressions": [],
+          "qAttributeDimensions": [],
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          }
+        },
+        {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Fare Class Name"
+            ],
+            "qFieldLabels": [
+              "Fare Class Name"
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "VKfwdX",
+            "othersLabel": "Others"
+          },
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {
+              "qv": "10"
+            },
+            "qOtherLimit": {
+              "qv": "0"
+            },
+            "qOtherLimitMode": "OTHER_GE_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qOtherLabel": {
+            "qv": "Others"
+          },
+          "qTotalLabel": {
+            "qv": "Totals"
+          },
+          "qCalcCond": {},
+          "qAttributeExpressions": [],
+          "qAttributeDimensions": [],
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          }
+        }
+      ],
+      "qMeasures": [
+        {
+          "qDef": {
+            "qLabel": "Flights",
+            "qTags": [],
+            "qGrouping": "N",
+            "qDef": "Sum(FLIGHT_COUNT)",
+            "qNumFormat": {
+              "qType": "U",
+              "qnDec": 10,
+              "qUseThou": 0
+            },
+            "qAccumulate": 0,
+            "qActiveExpression": 0,
+            "qExpressions": [],
+            "autoSort": true,
+            "cId": "jav",
+            "numFormatFromTemplate": true
+          },
+          "qSortBy": {
+            "qSortByNumeric": -1,
+            "qSortByLoadOrder": 1,
+            "qExpression": {}
+          },
+          "qAttributeExpressions": [
+            {
+              "qAttribute": true,
+              "qNumFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              }
+            },
+            {
+              "qAttribute": true,
+              "qNumFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              }
+            }
+          ],
+          "qAttributeDimensions": [],
+          "qCalcCond": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qTrendLines": [],
+          "qMiniChartDef": {
+            "qSortBy": {
+              "qExpression": {}
+            },
+            "qOtherTotalSpec": {
+              "qOtherMode": "OTHER_OFF",
+              "qOtherCounted": {},
+              "qOtherLimit": {},
+              "qOtherLimitMode": "OTHER_GT_LIMIT",
+              "qForceBadValueKeeping": true,
+              "qApplyEvenWhenPossiblyWrongResult": true,
+              "qOtherSortMode": "OTHER_SORT_DESCENDING",
+              "qTotalMode": "TOTAL_OFF",
+              "qReferencedExpression": {}
+            },
+            "qMaxNumberPoints": -1,
+            "qAttributeExpressions": []
+          }
+        },
+        {
+          "qDef": {
+            "qLabel": "Distance",
+            "qTags": [],
+            "qGrouping": "N",
+            "qDef": "Sum(DISTANCE)",
+            "qNumFormat": {
+              "qType": "U",
+              "qnDec": 10,
+              "qUseThou": 0
+            },
+            "qAccumulate": 0,
+            "qActiveExpression": 0,
+            "qExpressions": [],
+            "autoSort": true,
+            "cId": "JXNewBR",
+            "numFormatFromTemplate": true
+          },
+          "qSortBy": {
+            "qSortByNumeric": -1,
+            "qSortByLoadOrder": 1,
+            "qExpression": {}
+          },
+          "qAttributeExpressions": [
+            {
+              "qAttribute": true,
+              "qNumFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              }
+            },
+            {
+              "qAttribute": true,
+              "qNumFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              }
+            }
+          ],
+          "qAttributeDimensions": [],
+          "qCalcCond": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qTrendLines": [],
+          "qMiniChartDef": {
+            "qSortBy": {
+              "qExpression": {}
+            },
+            "qOtherTotalSpec": {
+              "qOtherMode": "OTHER_OFF",
+              "qOtherCounted": {},
+              "qOtherLimit": {},
+              "qOtherLimitMode": "OTHER_GT_LIMIT",
+              "qForceBadValueKeeping": true,
+              "qApplyEvenWhenPossiblyWrongResult": true,
+              "qOtherSortMode": "OTHER_SORT_DESCENDING",
+              "qTotalMode": "TOTAL_OFF",
+              "qReferencedExpression": {}
+            },
+            "qMaxNumberPoints": -1,
+            "qAttributeExpressions": []
+          }
+        }
+      ],
+      "qInterColumnSortOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1
+      ],
+      "qSuppressZero": true,
+      "qSuppressMissing": true,
+      "qInitialDataFetch": [
+        {
+          "qLeft": 0,
+          "qTop": 0,
+          "qWidth": 50,
+          "qHeight": 50
+        }
+      ],
+      "qReductionMode": "N",
+      "qMode": "P",
+      "qPseudoDimPos": -1,
+      "qNoOfLeftDims": 5,
+      "qMaxStackedCells": 5000,
+      "qShowTotalsAbove": true,
+      "qIndentMode": true,
+      "qCalcCond": {},
+      "qTitle": {},
+      "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+      },
+      "qColumnOrder": [],
+      "qExpansionState": [],
+      "customErrorMessage": {
+        "calcCond": ""
+      },
+      "qLayoutExclude": {
+        "qHyperCubeDef": {
+          "qDimensions": [],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [],
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": []
+        }
+      }
+    },
+    "showTitles": true,
+    "title": "Flight Details",
+    "subtitle": "",
+    "footnote": "",
+    "visualization": "pivot-table",
+    "masterVersion": 0.96
+  },
+  "qChildren": []
+}
