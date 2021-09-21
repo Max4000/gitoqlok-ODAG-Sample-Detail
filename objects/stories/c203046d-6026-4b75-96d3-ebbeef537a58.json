@@ -43,7 +43,4494 @@
         },
         "rank": 2
       },
-      "qChildren": []
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "GQ",
+              "qType": "slideitem"
+            },
+            "qMetaDef": {},
+            "qEmbeddedSnapshotDef": {},
+            "title": "",
+            "sheetId": "",
+            "ratio": true,
+            "position": {
+              "top": "11.11%",
+              "left": "8.33%",
+              "width": "66.88%",
+              "height": "74.44%",
+              "z-index": 4
+            },
+            "visualization": "snapshot",
+            "visualizationType": "linechart",
+            "style": {
+              "id": "b1d6bfef-aeb6-4855-9d19-eaf87f55f317"
+            }
+          },
+          "qChildren": [],
+          "qEmbeddedSnapshotRef": {
+            "qProperties": {
+              "qInfo": {
+                "qId": "d91d0ebe-86ae-4e09-be83-185e840d95d7",
+                "qType": "embeddedsnapshot"
+              },
+              "qMetaDef": {
+                "title": "",
+                "description": "",
+                "annotation": "125"
+              },
+              "creationDate": "2021-09-20T10:42:33.15Z",
+              "qMeta": {
+                "privileges": [
+                  "read",
+                  "update",
+                  "delete",
+                  "exportdata"
+                ]
+              },
+              "qSelectionInfo": {},
+              "qHyperCube": {
+                "qSize": {
+                  "qcx": 2,
+                  "qcy": 190
+                },
+                "qDimensionInfo": [
+                  {
+                    "qFallbackTitle": "Date(IND_DATA,'DD.MM.YYYY')",
+                    "qApprMaxGlyphCount": 10,
+                    "qCardinal": 368,
+                    "qSortIndicator": "A",
+                    "qGroupFallbackTitles": [
+                      "Date(IND_DATA,'DD.MM.YYYY')"
+                    ],
+                    "qGroupPos": 0,
+                    "qStateCounts": {
+                      "qLocked": 0,
+                      "qSelected": 0,
+                      "qOption": 368,
+                      "qDeselected": 0,
+                      "qAlternative": 0,
+                      "qExcluded": 0,
+                      "qSelectedExcluded": 0,
+                      "qLockedExcluded": 0
+                    },
+                    "qTags": [
+                      "$numeric",
+                      "$integer",
+                      "$timestamp",
+                      "$date"
+                    ],
+                    "qDimensionType": "N",
+                    "qGrouping": "N",
+                    "qNumFormat": {
+                      "qType": "D",
+                      "qnDec": 0,
+                      "qUseThou": 0,
+                      "qFmt": "DD.MM.YYYY"
+                    },
+                    "qIsAutoFormat": true,
+                    "qGroupFieldDefs": [
+                      "=Date(IND_DATA,'DD.MM.YYYY')"
+                    ],
+                    "qMin": 43467,
+                    "qMax": 43739,
+                    "qContinuousAxes": true,
+                    "qAttrExprInfo": [],
+                    "qAttrDimInfo": [],
+                    "qCardinalities": {
+                      "qCardinal": 368,
+                      "qHypercubeCardinal": 190,
+                      "qAllValuesCardinal": -1
+                    },
+                    "autoSort": true,
+                    "cId": "qgrAjv",
+                    "othersLabel": "Другие"
+                  }
+                ],
+                "qMeasureInfo": [
+                  {
+                    "qFallbackTitle": "BALTIC DRY INDEX",
+                    "qApprMaxGlyphCount": 5,
+                    "qCardinal": 0,
+                    "qSortIndicator": "D",
+                    "qNumFormat": {
+                      "qType": "F",
+                      "qnDec": 2,
+                      "qUseThou": 0,
+                      "qFmt": "# ##0",
+                      "qDec": ",",
+                      "qThou": " "
+                    },
+                    "qMin": 595,
+                    "qMax": 2518,
+                    "qAttrExprInfo": [
+                      {
+                        "qMin": 4294901760,
+                        "qMax": 4294901760,
+                        "qFallbackTitle": "if (Column(1)>1000, '#46c646', LightRed())",
+                        "qMinText": "RGB(255,0,0)",
+                        "qMaxText": "RGB(255,0,0)",
+                        "qNumFormat": {
+                          "qType": "U",
+                          "qnDec": 0,
+                          "qUseThou": 0
+                        },
+                        "qIsAutoFormat": true,
+                        "id": "colorByExpression"
+                      }
+                    ],
+                    "qAttrDimInfo": [],
+                    "qTrendLines": [],
+                    "autoSort": true,
+                    "cId": "PpuWpY",
+                    "numFormatFromTemplate": true,
+                    "series": {
+                      "type": "line",
+                      "axis": 0,
+                      "marker": "circle",
+                      "markerFill": true
+                    },
+                    "isCustomFormatted": false
+                  }
+                ],
+                "qEffectiveInterColumnSortOrder": [
+                  0,
+                  1
+                ],
+                "qGrandTotalRow": [
+                  {
+                    "qText": "-",
+                    "qNum": "NaN",
+                    "qElemNumber": -1,
+                    "qState": "X",
+                    "qIsTotalCell": true
+                  }
+                ],
+                "qDataPages": [
+                  {
+                    "qMatrix": [
+                      [
+                        {
+                          "qText": "02.01.2019",
+                          "qNum": 43467,
+                          "qElemNumber": 367,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 282",
+                          "qNum": 1282,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "03.01.2019",
+                          "qNum": 43468,
+                          "qElemNumber": 354,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 267",
+                          "qNum": 1267,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "04.01.2019",
+                          "qNum": 43469,
+                          "qElemNumber": 353,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 260",
+                          "qNum": 1260,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "07.01.2019",
+                          "qNum": 43472,
+                          "qElemNumber": 366,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 247",
+                          "qNum": 1247,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "08.01.2019",
+                          "qNum": 43473,
+                          "qElemNumber": 352,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 262",
+                          "qNum": 1262,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "09.01.2019",
+                          "qNum": 43474,
+                          "qElemNumber": 351,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 238",
+                          "qNum": 1238,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "10.01.2019",
+                          "qNum": 43475,
+                          "qElemNumber": 350,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 189",
+                          "qNum": 1189,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "11.01.2019",
+                          "qNum": 43476,
+                          "qElemNumber": 349,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 169",
+                          "qNum": 1169,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "14.01.2019",
+                          "qNum": 43479,
+                          "qElemNumber": 348,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 147",
+                          "qNum": 1147,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "15.01.2019",
+                          "qNum": 43480,
+                          "qElemNumber": 347,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 096",
+                          "qNum": 1096,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "16.01.2019",
+                          "qNum": 43481,
+                          "qElemNumber": 346,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 055",
+                          "qNum": 1055,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "17.01.2019",
+                          "qNum": 43482,
+                          "qElemNumber": 345,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 077",
+                          "qNum": 1077,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "18.01.2019",
+                          "qNum": 43483,
+                          "qElemNumber": 344,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 112",
+                          "qNum": 1112,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "21.01.2019",
+                          "qNum": 43486,
+                          "qElemNumber": 343,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 092",
+                          "qNum": 1092,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "22.01.2019",
+                          "qNum": 43487,
+                          "qElemNumber": 342,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 036",
+                          "qNum": 1036,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "23.01.2019",
+                          "qNum": 43488,
+                          "qElemNumber": 341,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "982",
+                          "qNum": 982,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "24.01.2019",
+                          "qNum": 43489,
+                          "qElemNumber": 340,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "939",
+                          "qNum": 939,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "25.01.2019",
+                          "qNum": 43490,
+                          "qElemNumber": 339,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "905",
+                          "qNum": 905,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "28.01.2019",
+                          "qNum": 43493,
+                          "qElemNumber": 338,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "852",
+                          "qNum": 852,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "29.01.2019",
+                          "qNum": 43494,
+                          "qElemNumber": 337,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "797",
+                          "qNum": 797,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "30.01.2019",
+                          "qNum": 43495,
+                          "qElemNumber": 336,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "721",
+                          "qNum": 721,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "31.01.2019",
+                          "qNum": 43496,
+                          "qElemNumber": 335,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "668",
+                          "qNum": 668,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "01.02.2019",
+                          "qNum": 43497,
+                          "qElemNumber": 334,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "645",
+                          "qNum": 645,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "04.02.2019",
+                          "qNum": 43500,
+                          "qElemNumber": 333,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "634",
+                          "qNum": 634,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "05.02.2019",
+                          "qNum": 43501,
+                          "qElemNumber": 332,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "629",
+                          "qNum": 629,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "06.02.2019",
+                          "qNum": 43502,
+                          "qElemNumber": 331,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "629",
+                          "qNum": 629,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "07.02.2019",
+                          "qNum": 43503,
+                          "qElemNumber": 330,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "610",
+                          "qNum": 610,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "08.02.2019",
+                          "qNum": 43504,
+                          "qElemNumber": 329,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "601",
+                          "qNum": 601,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "11.02.2019",
+                          "qNum": 43507,
+                          "qElemNumber": 328,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "595",
+                          "qNum": 595,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "12.02.2019",
+                          "qNum": 43508,
+                          "qElemNumber": 327,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "598",
+                          "qNum": 598,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "13.02.2019",
+                          "qNum": 43509,
+                          "qElemNumber": 326,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "608",
+                          "qNum": 608,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "14.02.2019",
+                          "qNum": 43510,
+                          "qElemNumber": 325,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "628",
+                          "qNum": 628,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "15.02.2019",
+                          "qNum": 43511,
+                          "qElemNumber": 324,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "639",
+                          "qNum": 639,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "18.02.2019",
+                          "qNum": 43514,
+                          "qElemNumber": 323,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "643",
+                          "qNum": 643,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "19.02.2019",
+                          "qNum": 43515,
+                          "qElemNumber": 322,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "635",
+                          "qNum": 635,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "20.02.2019",
+                          "qNum": 43516,
+                          "qElemNumber": 321,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "622",
+                          "qNum": 622,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "21.02.2019",
+                          "qNum": 43517,
+                          "qElemNumber": 320,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "630",
+                          "qNum": 630,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "22.02.2019",
+                          "qNum": 43518,
+                          "qElemNumber": 319,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "634",
+                          "qNum": 634,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "25.02.2019",
+                          "qNum": 43521,
+                          "qElemNumber": 318,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "637",
+                          "qNum": 637,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "26.02.2019",
+                          "qNum": 43522,
+                          "qElemNumber": 317,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "649",
+                          "qNum": 649,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "27.02.2019",
+                          "qNum": 43523,
+                          "qElemNumber": 316,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "651",
+                          "qNum": 651,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "28.02.2019",
+                          "qNum": 43524,
+                          "qElemNumber": 315,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "658",
+                          "qNum": 658,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "01.03.2019",
+                          "qNum": 43525,
+                          "qElemNumber": 314,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "664",
+                          "qNum": 664,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "04.03.2019",
+                          "qNum": 43528,
+                          "qElemNumber": 313,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "669",
+                          "qNum": 669,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "05.03.2019",
+                          "qNum": 43529,
+                          "qElemNumber": 312,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "663",
+                          "qNum": 663,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "06.03.2019",
+                          "qNum": 43530,
+                          "qElemNumber": 311,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "664",
+                          "qNum": 664,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "07.03.2019",
+                          "qNum": 43531,
+                          "qElemNumber": 310,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "657",
+                          "qNum": 657,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "08.03.2019",
+                          "qNum": 43532,
+                          "qElemNumber": 365,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "649",
+                          "qNum": 649,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "11.03.2019",
+                          "qNum": 43535,
+                          "qElemNumber": 309,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "645",
+                          "qNum": 645,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "12.03.2019",
+                          "qNum": 43536,
+                          "qElemNumber": 308,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "647",
+                          "qNum": 647,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "13.03.2019",
+                          "qNum": 43537,
+                          "qElemNumber": 307,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "654",
+                          "qNum": 654,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "14.03.2019",
+                          "qNum": 43538,
+                          "qElemNumber": 306,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "677",
+                          "qNum": 677,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "15.03.2019",
+                          "qNum": 43539,
+                          "qElemNumber": 305,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "730",
+                          "qNum": 730,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "18.03.2019",
+                          "qNum": 43542,
+                          "qElemNumber": 304,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "721",
+                          "qNum": 721,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "19.03.2019",
+                          "qNum": 43543,
+                          "qElemNumber": 303,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "712",
+                          "qNum": 712,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "20.03.2019",
+                          "qNum": 43544,
+                          "qElemNumber": 302,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "709",
+                          "qNum": 709,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "21.03.2019",
+                          "qNum": 43545,
+                          "qElemNumber": 301,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "695",
+                          "qNum": 695,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "22.03.2019",
+                          "qNum": 43546,
+                          "qElemNumber": 300,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "690",
+                          "qNum": 690,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "25.03.2019",
+                          "qNum": 43549,
+                          "qElemNumber": 299,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "689",
+                          "qNum": 689,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "26.03.2019",
+                          "qNum": 43550,
+                          "qElemNumber": 298,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "683",
+                          "qNum": 683,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "27.03.2019",
+                          "qNum": 43551,
+                          "qElemNumber": 297,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "690",
+                          "qNum": 690,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "28.03.2019",
+                          "qNum": 43552,
+                          "qElemNumber": 296,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "692",
+                          "qNum": 692,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "29.03.2019",
+                          "qNum": 43553,
+                          "qElemNumber": 295,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "689",
+                          "qNum": 689,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "01.04.2019",
+                          "qNum": 43556,
+                          "qElemNumber": 294,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "685",
+                          "qNum": 685,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "02.04.2019",
+                          "qNum": 43557,
+                          "qElemNumber": 293,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "674",
+                          "qNum": 674,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "03.04.2019",
+                          "qNum": 43558,
+                          "qElemNumber": 292,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "672",
+                          "qNum": 672,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "04.04.2019",
+                          "qNum": 43559,
+                          "qElemNumber": 291,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "699",
+                          "qNum": 699,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "05.04.2019",
+                          "qNum": 43560,
+                          "qElemNumber": 290,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "711",
+                          "qNum": 711,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "08.04.2019",
+                          "qNum": 43563,
+                          "qElemNumber": 289,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "714",
+                          "qNum": 714,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "09.04.2019",
+                          "qNum": 43564,
+                          "qElemNumber": 288,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "725",
+                          "qNum": 725,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "10.04.2019",
+                          "qNum": 43565,
+                          "qElemNumber": 287,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "734",
+                          "qNum": 734,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "11.04.2019",
+                          "qNum": 43566,
+                          "qElemNumber": 286,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "728",
+                          "qNum": 728,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "12.04.2019",
+                          "qNum": 43567,
+                          "qElemNumber": 285,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "726",
+                          "qNum": 726,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "15.04.2019",
+                          "qNum": 43570,
+                          "qElemNumber": 284,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "738",
+                          "qNum": 738,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "16.04.2019",
+                          "qNum": 43571,
+                          "qElemNumber": 283,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "749",
+                          "qNum": 749,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "17.04.2019",
+                          "qNum": 43572,
+                          "qElemNumber": 282,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "767",
+                          "qNum": 767,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "18.04.2019",
+                          "qNum": 43573,
+                          "qElemNumber": 281,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "790",
+                          "qNum": 790,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "23.04.2019",
+                          "qNum": 43578,
+                          "qElemNumber": 278,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "821",
+                          "qNum": 821,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "24.04.2019",
+                          "qNum": 43579,
+                          "qElemNumber": 277,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "850",
+                          "qNum": 850,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "25.04.2019",
+                          "qNum": 43580,
+                          "qElemNumber": 276,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "869",
+                          "qNum": 869,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "26.04.2019",
+                          "qNum": 43581,
+                          "qElemNumber": 275,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "889",
+                          "qNum": 889,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "29.04.2019",
+                          "qNum": 43584,
+                          "qElemNumber": 274,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "913",
+                          "qNum": 913,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "30.04.2019",
+                          "qNum": 43585,
+                          "qElemNumber": 273,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 011",
+                          "qNum": 1011,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "01.05.2019",
+                          "qNum": 43586,
+                          "qElemNumber": 364,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 031",
+                          "qNum": 1031,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "02.05.2019",
+                          "qNum": 43587,
+                          "qElemNumber": 272,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 032",
+                          "qNum": 1032,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "03.05.2019",
+                          "qNum": 43588,
+                          "qElemNumber": 271,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "985",
+                          "qNum": 985,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "07.05.2019",
+                          "qNum": 43592,
+                          "qElemNumber": 269,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "936",
+                          "qNum": 936,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "08.05.2019",
+                          "qNum": 43593,
+                          "qElemNumber": 268,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "940",
+                          "qNum": 940,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "09.05.2019",
+                          "qNum": 43594,
+                          "qElemNumber": 363,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "974",
+                          "qNum": 974,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "RGB(255,0,0)",
+                                "qNum": 4294901760
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "10.05.2019",
+                          "qNum": 43595,
+                          "qElemNumber": 267,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 013",
+                          "qNum": 1013,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "13.05.2019",
+                          "qNum": 43598,
+                          "qElemNumber": 266,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 026",
+                          "qNum": 1026,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "14.05.2019",
+                          "qNum": 43599,
+                          "qElemNumber": 265,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 043",
+                          "qNum": 1043,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "15.05.2019",
+                          "qNum": 43600,
+                          "qElemNumber": 264,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 032",
+                          "qNum": 1032,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "16.05.2019",
+                          "qNum": 43601,
+                          "qElemNumber": 263,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 032",
+                          "qNum": 1032,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "17.05.2019",
+                          "qNum": 43602,
+                          "qElemNumber": 262,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 040",
+                          "qNum": 1040,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "20.05.2019",
+                          "qNum": 43605,
+                          "qElemNumber": 261,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 041",
+                          "qNum": 1041,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "21.05.2019",
+                          "qNum": 43606,
+                          "qElemNumber": 260,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 049",
+                          "qNum": 1049,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "22.05.2019",
+                          "qNum": 43607,
+                          "qElemNumber": 259,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 059",
+                          "qNum": 1059,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "23.05.2019",
+                          "qNum": 43608,
+                          "qElemNumber": 258,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 068",
+                          "qNum": 1068,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "24.05.2019",
+                          "qNum": 43609,
+                          "qElemNumber": 257,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 066",
+                          "qNum": 1066,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "28.05.2019",
+                          "qNum": 43613,
+                          "qElemNumber": 255,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 082",
+                          "qNum": 1082,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "29.05.2019",
+                          "qNum": 43614,
+                          "qElemNumber": 254,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 107",
+                          "qNum": 1107,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "30.05.2019",
+                          "qNum": 43615,
+                          "qElemNumber": 253,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 097",
+                          "qNum": 1097,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "31.05.2019",
+                          "qNum": 43616,
+                          "qElemNumber": 252,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 096",
+                          "qNum": 1096,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "03.06.2019",
+                          "qNum": 43619,
+                          "qElemNumber": 251,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 103",
+                          "qNum": 1103,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "04.06.2019",
+                          "qNum": 43620,
+                          "qElemNumber": 250,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 122",
+                          "qNum": 1122,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "05.06.2019",
+                          "qNum": 43621,
+                          "qElemNumber": 249,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 141",
+                          "qNum": 1141,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "06.06.2019",
+                          "qNum": 43622,
+                          "qElemNumber": 248,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 138",
+                          "qNum": 1138,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "07.06.2019",
+                          "qNum": 43623,
+                          "qElemNumber": 247,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 138",
+                          "qNum": 1138,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "10.06.2019",
+                          "qNum": 43626,
+                          "qElemNumber": 246,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 125",
+                          "qNum": 1125,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "11.06.2019",
+                          "qNum": 43627,
+                          "qElemNumber": 245,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 105",
+                          "qNum": 1105,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "12.06.2019",
+                          "qNum": 43628,
+                          "qElemNumber": 362,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 080",
+                          "qNum": 1080,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "13.06.2019",
+                          "qNum": 43629,
+                          "qElemNumber": 244,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 062",
+                          "qNum": 1062,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "14.06.2019",
+                          "qNum": 43630,
+                          "qElemNumber": 243,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 085",
+                          "qNum": 1085,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "17.06.2019",
+                          "qNum": 43633,
+                          "qElemNumber": 242,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 093",
+                          "qNum": 1093,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "18.06.2019",
+                          "qNum": 43634,
+                          "qElemNumber": 241,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 135",
+                          "qNum": 1135,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "19.06.2019",
+                          "qNum": 43635,
+                          "qElemNumber": 240,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 179",
+                          "qNum": 1179,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "20.06.2019",
+                          "qNum": 43636,
+                          "qElemNumber": 239,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 194",
+                          "qNum": 1194,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "21.06.2019",
+                          "qNum": 43637,
+                          "qElemNumber": 238,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 239",
+                          "qNum": 1239,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "24.06.2019",
+                          "qNum": 43640,
+                          "qElemNumber": 237,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 258",
+                          "qNum": 1258,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "25.06.2019",
+                          "qNum": 43641,
+                          "qElemNumber": 236,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 280",
+                          "qNum": 1280,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "26.06.2019",
+                          "qNum": 43642,
+                          "qElemNumber": 235,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 317",
+                          "qNum": 1317,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "27.06.2019",
+                          "qNum": 43643,
+                          "qElemNumber": 234,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 340",
+                          "qNum": 1340,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "28.06.2019",
+                          "qNum": 43644,
+                          "qElemNumber": 233,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 354",
+                          "qNum": 1354,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "01.07.2019",
+                          "qNum": 43647,
+                          "qElemNumber": 232,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 381",
+                          "qNum": 1381,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "02.07.2019",
+                          "qNum": 43648,
+                          "qElemNumber": 231,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 446",
+                          "qNum": 1446,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "03.07.2019",
+                          "qNum": 43649,
+                          "qElemNumber": 230,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 549",
+                          "qNum": 1549,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "04.07.2019",
+                          "qNum": 43650,
+                          "qElemNumber": 229,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 700",
+                          "qNum": 1700,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "05.07.2019",
+                          "qNum": 43651,
+                          "qElemNumber": 228,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 740",
+                          "qNum": 1740,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "08.07.2019",
+                          "qNum": 43654,
+                          "qElemNumber": 227,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 725",
+                          "qNum": 1725,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "09.07.2019",
+                          "qNum": 43655,
+                          "qElemNumber": 226,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 759",
+                          "qNum": 1759,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "10.07.2019",
+                          "qNum": 43656,
+                          "qElemNumber": 225,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 777",
+                          "qNum": 1777,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "11.07.2019",
+                          "qNum": 43657,
+                          "qElemNumber": 224,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 816",
+                          "qNum": 1816,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "12.07.2019",
+                          "qNum": 43658,
+                          "qElemNumber": 223,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 865",
+                          "qNum": 1865,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "15.07.2019",
+                          "qNum": 43661,
+                          "qElemNumber": 222,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 928",
+                          "qNum": 1928,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "16.07.2019",
+                          "qNum": 43662,
+                          "qElemNumber": 221,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 011",
+                          "qNum": 2011,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "17.07.2019",
+                          "qNum": 43663,
+                          "qElemNumber": 220,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 064",
+                          "qNum": 2064,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "18.07.2019",
+                          "qNum": 43664,
+                          "qElemNumber": 219,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 130",
+                          "qNum": 2130,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "19.07.2019",
+                          "qNum": 43665,
+                          "qElemNumber": 218,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 170",
+                          "qNum": 2170,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "22.07.2019",
+                          "qNum": 43668,
+                          "qElemNumber": 217,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 191",
+                          "qNum": 2191,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "23.07.2019",
+                          "qNum": 43669,
+                          "qElemNumber": 216,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 165",
+                          "qNum": 2165,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "24.07.2019",
+                          "qNum": 43670,
+                          "qElemNumber": 215,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 014",
+                          "qNum": 2014,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "25.07.2019",
+                          "qNum": 43671,
+                          "qElemNumber": 214,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 947",
+                          "qNum": 1947,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "26.07.2019",
+                          "qNum": 43672,
+                          "qElemNumber": 213,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 937",
+                          "qNum": 1937,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "29.07.2019",
+                          "qNum": 43675,
+                          "qElemNumber": 212,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 922",
+                          "qNum": 1922,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "30.07.2019",
+                          "qNum": 43676,
+                          "qElemNumber": 211,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 899",
+                          "qNum": 1899,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "31.07.2019",
+                          "qNum": 43677,
+                          "qElemNumber": 210,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 868",
+                          "qNum": 1868,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "01.08.2019",
+                          "qNum": 43678,
+                          "qElemNumber": 209,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 812",
+                          "qNum": 1812,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "02.08.2019",
+                          "qNum": 43679,
+                          "qElemNumber": 208,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 788",
+                          "qNum": 1788,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "05.08.2019",
+                          "qNum": 43682,
+                          "qElemNumber": 207,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 774",
+                          "qNum": 1774,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "06.08.2019",
+                          "qNum": 43683,
+                          "qElemNumber": 206,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 734",
+                          "qNum": 1734,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "07.08.2019",
+                          "qNum": 43684,
+                          "qElemNumber": 205,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 712",
+                          "qNum": 1712,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "08.08.2019",
+                          "qNum": 43685,
+                          "qElemNumber": 204,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 720",
+                          "qNum": 1720,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "09.08.2019",
+                          "qNum": 43686,
+                          "qElemNumber": 203,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 748",
+                          "qNum": 1748,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "12.08.2019",
+                          "qNum": 43689,
+                          "qElemNumber": 202,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 774",
+                          "qNum": 1774,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "13.08.2019",
+                          "qNum": 43690,
+                          "qElemNumber": 201,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 864",
+                          "qNum": 1864,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "14.08.2019",
+                          "qNum": 43691,
+                          "qElemNumber": 200,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 950",
+                          "qNum": 1950,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "15.08.2019",
+                          "qNum": 43692,
+                          "qElemNumber": 199,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 047",
+                          "qNum": 2047,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "16.08.2019",
+                          "qNum": 43693,
+                          "qElemNumber": 198,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 088",
+                          "qNum": 2088,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "19.08.2019",
+                          "qNum": 43696,
+                          "qElemNumber": 197,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 067",
+                          "qNum": 2067,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "20.08.2019",
+                          "qNum": 43697,
+                          "qElemNumber": 196,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 059",
+                          "qNum": 2059,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "21.08.2019",
+                          "qNum": 43698,
+                          "qElemNumber": 195,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 061",
+                          "qNum": 2061,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "22.08.2019",
+                          "qNum": 43699,
+                          "qElemNumber": 194,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 118",
+                          "qNum": 2118,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "23.08.2019",
+                          "qNum": 43700,
+                          "qElemNumber": 193,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 168",
+                          "qNum": 2168,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "27.08.2019",
+                          "qNum": 43704,
+                          "qElemNumber": 191,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 213",
+                          "qNum": 2213,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "28.08.2019",
+                          "qNum": 43705,
+                          "qElemNumber": 190,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 267",
+                          "qNum": 2267,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "29.08.2019",
+                          "qNum": 43706,
+                          "qElemNumber": 189,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 277",
+                          "qNum": 2277,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "30.08.2019",
+                          "qNum": 43707,
+                          "qElemNumber": 188,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 378",
+                          "qNum": 2378,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "02.09.2019",
+                          "qNum": 43710,
+                          "qElemNumber": 187,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 442",
+                          "qNum": 2442,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "03.09.2019",
+                          "qNum": 43711,
+                          "qElemNumber": 186,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 501",
+                          "qNum": 2501,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "04.09.2019",
+                          "qNum": 43712,
+                          "qElemNumber": 185,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 518",
+                          "qNum": 2518,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "05.09.2019",
+                          "qNum": 43713,
+                          "qElemNumber": 184,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 499",
+                          "qNum": 2499,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "06.09.2019",
+                          "qNum": 43714,
+                          "qElemNumber": 183,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 462",
+                          "qNum": 2462,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "09.09.2019",
+                          "qNum": 43717,
+                          "qElemNumber": 182,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 422",
+                          "qNum": 2422,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "10.09.2019",
+                          "qNum": 43718,
+                          "qElemNumber": 181,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 393",
+                          "qNum": 2393,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "11.09.2019",
+                          "qNum": 43719,
+                          "qElemNumber": 180,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 366",
+                          "qNum": 2366,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "12.09.2019",
+                          "qNum": 43720,
+                          "qElemNumber": 179,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 331",
+                          "qNum": 2331,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "13.09.2019",
+                          "qNum": 43721,
+                          "qElemNumber": 178,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 312",
+                          "qNum": 2312,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "16.09.2019",
+                          "qNum": 43724,
+                          "qElemNumber": 177,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 311",
+                          "qNum": 2311,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "17.09.2019",
+                          "qNum": 43725,
+                          "qElemNumber": 176,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 283",
+                          "qNum": 2283,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "18.09.2019",
+                          "qNum": 43726,
+                          "qElemNumber": 175,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 266",
+                          "qNum": 2266,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "19.09.2019",
+                          "qNum": 43727,
+                          "qElemNumber": 174,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 192",
+                          "qNum": 2192,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "20.09.2019",
+                          "qNum": 43728,
+                          "qElemNumber": 173,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 131",
+                          "qNum": 2131,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "23.09.2019",
+                          "qNum": 43731,
+                          "qElemNumber": 172,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 108",
+                          "qNum": 2108,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "24.09.2019",
+                          "qNum": 43732,
+                          "qElemNumber": 171,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 116",
+                          "qNum": 2116,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "25.09.2019",
+                          "qNum": 43733,
+                          "qElemNumber": 170,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "2 053",
+                          "qNum": 2053,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "26.09.2019",
+                          "qNum": 43734,
+                          "qElemNumber": 169,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 963",
+                          "qNum": 1963,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "27.09.2019",
+                          "qNum": 43735,
+                          "qElemNumber": 168,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 857",
+                          "qNum": 1857,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "30.09.2019",
+                          "qNum": 43738,
+                          "qElemNumber": 0,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 823",
+                          "qNum": 1823,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      [
+                        {
+                          "qText": "01.10.2019",
+                          "qNum": 43739,
+                          "qElemNumber": 167,
+                          "qState": "L"
+                        },
+                        {
+                          "qText": "1 809",
+                          "qNum": 1809,
+                          "qElemNumber": -1,
+                          "qState": "L",
+                          "qAttrExps": {
+                            "qValues": [
+                              {
+                                "qText": "#46c646",
+                                "qNum": "NaN"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    ],
+                    "qTails": [],
+                    "qArea": {
+                      "qLeft": 0,
+                      "qTop": 0,
+                      "qWidth": 2,
+                      "qHeight": 190
+                    }
+                  }
+                ],
+                "qPivotDataPages": [],
+                "qStackedDataPages": [],
+                "qMode": "S",
+                "qNoOfLeftDims": -1,
+                "qTreeNodesOnDim": [],
+                "qColumnOrder": [],
+                "qAxisData": {
+                  "qAxis": []
+                }
+              },
+              "showTitles": false,
+              "title": "Динамика",
+              "subtitle": "",
+              "footnote": "",
+              "showDetails": true,
+              "orientation": "vertical",
+              "scrollStartPos": 0,
+              "nullMode": "connect",
+              "dataPoint": {
+                "show": false,
+                "showLineLabels": false,
+                "showBarLabels": false,
+                "showLabels": false
+              },
+              "color": {
+                "auto": false,
+                "mode": "byExpression",
+                "useBaseColors": "off",
+                "paletteColor": {
+                  "index": 2,
+                  "color": "#46c646"
+                },
+                "useDimColVal": true,
+                "useMeasureGradient": true,
+                "persistent": false,
+                "expressionIsColor": true,
+                "expressionLabel": "",
+                "measureScheme": "sg",
+                "reverseScheme": false,
+                "dimensionScheme": "12",
+                "autoMinMax": true,
+                "measureMin": 0,
+                "measureMax": 10,
+                "colorExpression": "if (Column(1)>1000, '#46c646', LightRed())"
+              },
+              "legend": {
+                "show": true,
+                "dock": "bottom",
+                "showTitle": false
+              },
+              "dimensionAxis": {
+                "continuousAuto": true,
+                "show": "labels",
+                "label": "auto",
+                "dock": "near",
+                "axisDisplayMode": "auto",
+                "maxVisibleItems": 10
+              },
+              "preferContinuousAxis": true,
+              "showMiniChartForContinuousAxis": false,
+              "visualization": "linechart",
+              "refLine": {
+                "refLines": []
+              },
+              "components": [],
+              "lineType": "area",
+              "stackedArea": false,
+              "separateStacking": true,
+              "scrollbar": "none",
+              "gridLine": {
+                "auto": true,
+                "spacing": 2
+              },
+              "measureAxis": {
+                "show": "labels",
+                "dock": "near",
+                "spacing": 1,
+                "autoMinMax": true,
+                "minMax": "min",
+                "min": 0,
+                "max": 10,
+                "logarithmic": false
+              },
+              "version": "1.0.0",
+              "containerChildId": "QwsLPp",
+              "snapshotData": {
+                "object": {
+                  "size": {
+                    "w": 875,
+                    "h": 565
+                  }
+                },
+                "rtl": false,
+                "content": {
+                  "size": {
+                    "w": 875.25,
+                    "h": 562.984375
+                  },
+                  "chartData": {
+                    "zoom": {
+                      "min": 43467,
+                      "max": 43739
+                    }
+                  }
+                },
+                "parent": {
+                  "h": 750,
+                  "w": 1201
+                }
+              },
+              "visualizationType": "linechart",
+              "sourceObjectId": "JHuTzd",
+              "timestamp": 1632134553107,
+              "isClone": false,
+              "supportExport": true,
+              "sheetId": "f47b1e36-81a5-45c5-85ee-d9b93074c938"
+            },
+            "qBookmark": {
+              "qStateData": [
+                {
+                  "qStateName": "$",
+                  "qFieldItems": []
+                }
+              ],
+              "qUtcModifyTime": 44459.6965162037,
+              "qVariableItems": [],
+              "qPatches": []
+            }
+          }
+        }
+      ]
     }
   ]
 }
