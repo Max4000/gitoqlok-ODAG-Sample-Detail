@@ -1,0 +1,7 @@
+{
+  "qName": "retail_and_recreation_percent_change_from_baseline",
+  "qTags": [],
+  "qSrcTables": [
+    "T_GlobalMobilityReport"
+  ]
+}

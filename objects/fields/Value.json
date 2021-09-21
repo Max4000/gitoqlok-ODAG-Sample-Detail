@@ -1,0 +1,10 @@
+{
+  "qName": "Value",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "T2_AppleMobilityTrends"
+  ]
+}

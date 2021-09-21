@@ -1,0 +1,9 @@
+{
+  "qName": "EC.INDEX_RTS.DIVISOR",
+  "qTags": [
+    "$numeric"
+  ],
+  "qSrcTables": [
+    "Index_RTS"
+  ]
+}

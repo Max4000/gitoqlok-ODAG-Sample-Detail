@@ -1,0 +1,10 @@
+{
+  "qName": "EC.LBR_OUT.Сезон",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "LABOR_OUT"
+  ]
+}

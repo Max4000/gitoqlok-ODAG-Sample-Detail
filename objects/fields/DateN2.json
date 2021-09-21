@@ -1,0 +1,12 @@
+{
+  "qName": "DateN2",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date"
+  ],
+  "qSrcTables": [
+    "T2_AppleMobilityTrends"
+  ]
+}

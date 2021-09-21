@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "nxxcBMh",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Смертей_прирост",
+    "qDef": "Sum([Смертей за день])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Смертей'",
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#f93f17",
+        "index": 10
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "Смертей_прирост",
+    "description": "",
+    "tags": []
+  }
+}

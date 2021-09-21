@@ -1,0 +1,179 @@
+///$tab Загрузка Ар
+[covid19_yandex]: NoConcatenate
+LOAD
+	AutoNumberHash128([Дата], [Страна], [Регион]) as key1,
+	Num([Дата]) as [DateN1],
+
+  [Дата],
+  [Страна],
+  [Регион],
+	
+  [Заражений],
+  [Выздоровлений],
+  [Смертей],
+  [Заражений за день],
+  [Выздоровлений за день],
+  [Смертей за день]
+ FROM [lib://Board_1/covid19_yandex.qvd] (qvd)
+ Where [Дата] <= '31.05.2020';
+
+[T2_AppleMobilityTrends]:  NoConcatenate
+LOAD
+	AutoNumberHash128([Дата], [Страна], [Регион], [Город]) as key2,
+    Num([Дата]) as [DateN2],
+    
+  [Дата],
+  [Страна],
+  [Регион],
+  [Город],
+
+  [transportation_type],
+  [Value]
+ FROM [lib://Board_2/T2_AppleMobilityTrends.qvd] (qvd);
+
+// [T_OxCGRT]: NoConcatenate
+// LOAD
+// 	AutoNumberHash128([Дата], [Страна]) as key3,
+//     Num([Дата]) as [DateN3],
+ 
+//   [Дата],
+//   [Страна],
+  
+//   [C2_Workplace closing],
+//   [C5_Close public transport],
+//   [C6_Stay at home requirements],
+//   [C7_Restrictions on internal movement],
+//   [C8_International travel controls],
+//   [ConfirmedCases],
+//   [ConfirmedDeaths],
+//   [StringencyIndex],
+//   [StringencyIndexForDisplay],
+//   [StringencyLegacyIndex],
+//   [StringencyLegacyIndexForDisplay],
+//   [GovernmentResponseIndex],
+//   [GovernmentResponseIndexForDisplay],
+//   [ContainmentHealthIndex],
+//   [ContainmentHealthIndexForDisplay],
+//   [EconomicSupportIndex],
+//   [EconomicSupportIndexForDisplay]
+//  FROM [lib://Board_2/T_OxCGRT.qvd] (qvd);
+
+[T_OxCGRT]: NoConcatenate
+LOAD
+	AutoNumberHash128([Дата], [Страна]) as key3,
+    Num([Дата]) as [DateN3],
+  Страна,
+  Дата,
+//   Country,
+//   iso3,
+//   Date,
+  [C_Name],
+  [C_Value],
+  [C_Имя],
+  [C_Type]
+FROM [lib://Board_2/T2_OxCGRT.qvd] (qvd);
+
+
+
+
+[T_GlobalMobilityReport]: NoConcatenate
+LOAD
+	AutoNumberHash128([Дата], [Страна], [Регион]) as key4,
+	Num([Дата]) as [DateN4],
+
+  [Дата],
+  [Страна],
+  [Регион],
+
+  [retail_and_recreation_percent_change_from_baseline],
+  [grocery_and_pharmacy_percent_change_from_baseline],
+  [parks_percent_change_from_baseline],
+  [transit_stations_percent_change_from_baseline],
+  [workplaces_percent_change_from_baseline],
+  [residential_percent_change_from_baseline]
+ FROM [lib://Board_2/T_GlobalMobilityReport.qvd] (qvd);
+
+[T_covid19_ru_index_yandex]: NoConcatenate
+LOAD
+	AutoNumberHash128([Дата], [Страна], [Город]) as key5,
+    Num([Дата]) as [DateN5],
+
+  [Дата],
+  [Страна],
+  [Город],
+
+  [Индекс]
+ FROM [lib://Board_2/T_covid19_ru_index_yandex.qvd] (qvd);
+
+[T_global_population]: NoConcatenate
+LOAD
+  [Страна], //key
+  [Население]
+ FROM [lib://Board_1/T_global_population.qvd] (qvd);
+
+[T_TravelRestrictions]: NoConcatenate
+LOAD
+  [Страна], //key
+  [Страна] as Travel_Country,
+  Date as Travel_Date,
+  type as Travel_Type,
+  Airline as Travel_Airline_Country,
+  airline as Travel_Airline_Company,
+  info as Travel_Info
+ FROM [lib://Board_2/T_TravelRestrictions.qvd] (qvd)
+ Where not IsNull(Date);
+
+[T2_number-of-flights]: NoConcatenate
+LOAD  
+  Дата, //key
+  Flights_7avg,
+  Flights_Num,
+  Flights_Type
+ FROM [lib://Board_2/T2_number-of-flights.qvd] (qvd);
+//----------------------------------------------------------------------------------------------------
+
+//----------------------------------------------------------------------------------------------------
+Link: NoConcatenate
+Load Distinct
+  key1,
+  [Дата],
+  [Страна],
+  [Регион]
+ Resident [covid19_yandex];
+Drop Fields [Дата], [Страна], [Регион] From [covid19_yandex];
+
+Link: Concatenate
+Load Distinct
+  key2,
+  [Дата],
+  [Страна],
+  [Регион],
+  [Город]
+ Resident [T2_AppleMobilityTrends];
+Drop Fields [Дата], [Страна], [Регион], [Город] From [T2_AppleMobilityTrends];
+
+Link: Concatenate
+Load Distinct
+  key3,
+  [Дата],
+  [Страна]
+ Resident [T_OxCGRT];
+Drop Fields [Дата], [Страна] From [T_OxCGRT];
+
+Link: Concatenate
+Load Distinct
+  key4,
+  [Дата],    
+  [Страна],
+  [Регион]
+ Resident [T_GlobalMobilityReport];
+Drop Fields [Дата], [Страна], [Регион] From [T_GlobalMobilityReport];
+
+Link: Concatenate
+Load Distinct
+  key5,
+  [Дата],
+  [Страна],
+  [Город]
+ Resident [T_covid19_ru_index_yandex];
+Drop Fields [Дата], [Страна], [Город] From [T_covid19_ru_index_yandex];

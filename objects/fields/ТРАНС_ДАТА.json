@@ -1,0 +1,14 @@
+{
+  "qName": "ТРАНС_ДАТА",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date",
+    "$key"
+  ],
+  "qSrcTables": [
+    "ДдинамикаПеревозок",
+    "Link2"
+  ]
+}

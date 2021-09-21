@@ -1,0 +1,9 @@
+{
+  "qName": "EC.FTSE100.Изм. %",
+  "qTags": [
+    "$numeric"
+  ],
+  "qSrcTables": [
+    "FTSE100"
+  ]
+}

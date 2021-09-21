@@ -1,0 +1,10 @@
+{
+  "qName": "EC.INDEX_RTS.CURRENCYID",
+  "qTags": [
+    "$text",
+    "$ascii"
+  ],
+  "qSrcTables": [
+    "Index_RTS"
+  ]
+}

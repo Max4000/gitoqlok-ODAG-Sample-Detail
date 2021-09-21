@@ -1,0 +1,9 @@
+{
+  "qName": "Индекс",
+  "qTags": [
+    "$numeric"
+  ],
+  "qSrcTables": [
+    "T_covid19_ru_index_yandex"
+  ]
+}

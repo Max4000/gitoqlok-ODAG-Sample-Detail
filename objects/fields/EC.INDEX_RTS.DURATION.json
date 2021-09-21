@@ -1,0 +1,10 @@
+{
+  "qName": "EC.INDEX_RTS.DURATION",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "Index_RTS"
+  ]
+}

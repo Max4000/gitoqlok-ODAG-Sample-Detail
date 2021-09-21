@@ -1,0 +1,10 @@
+{
+  "qName": "ОтчетГодКвартал",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "LABOR_OUT"
+  ]
+}

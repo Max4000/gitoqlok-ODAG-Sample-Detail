@@ -1,0 +1,12 @@
+{
+  "qName": "EC.СреднеДушКв.ОтчетДата",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date"
+  ],
+  "qSrcTables": [
+    "СреднеДушКв"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "qName": "EC.FTSE100.Мин.",
+  "qTags": [
+    "$text",
+    "$ascii"
+  ],
+  "qSrcTables": [
+    "FTSE100"
+  ]
+}

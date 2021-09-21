@@ -1,0 +1,10 @@
+{
+  "qName": "EC.СреднеДушГод.Сезон",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "СреднеДушГод"
+  ]
+}

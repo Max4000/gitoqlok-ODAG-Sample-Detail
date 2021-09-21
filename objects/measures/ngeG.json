@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "ngeG",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Смертей",
+    "qDef": "Sum([Смертей])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#f93f17",
+        "index": 10
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "Смертей",
+    "description": "",
+    "tags": []
+  }
+}

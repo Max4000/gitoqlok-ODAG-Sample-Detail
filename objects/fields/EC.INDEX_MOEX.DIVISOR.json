@@ -1,0 +1,9 @@
+{
+  "qName": "EC.INDEX_MOEX.DIVISOR",
+  "qTags": [
+    "$numeric"
+  ],
+  "qSrcTables": [
+    "Index_Moex"
+  ]
+}

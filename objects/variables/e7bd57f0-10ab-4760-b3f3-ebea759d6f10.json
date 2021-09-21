@@ -1,0 +1,16 @@
+{
+  "qInfo": {
+    "qId": "e7bd57f0-10ab-4760-b3f3-ebea759d6f10",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "@View_01",
+  "qComment": "Абсолютное и Относительное значение",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "1",
+  "tags": []
+}

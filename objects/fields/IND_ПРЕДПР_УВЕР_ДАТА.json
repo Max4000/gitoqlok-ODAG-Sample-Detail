@@ -1,0 +1,14 @@
+{
+  "qName": "IND_ПРЕДПР_УВЕР_ДАТА",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date",
+    "$key"
+  ],
+  "qSrcTables": [
+    "Индекс_предпринимательской_уверенности",
+    "Link2"
+  ]
+}

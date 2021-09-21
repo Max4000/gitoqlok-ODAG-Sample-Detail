@@ -1,0 +1,9 @@
+{
+  "qName": "Travel_Info",
+  "qTags": [
+    "$text"
+  ],
+  "qSrcTables": [
+    "T_TravelRestrictions"
+  ]
+}

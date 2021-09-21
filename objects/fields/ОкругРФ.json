@@ -1,0 +1,9 @@
+{
+  "qName": "ОкругРФ",
+  "qTags": [
+    "$text"
+  ],
+  "qSrcTables": [
+    "Link2"
+  ]
+}

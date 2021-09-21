@@ -1,0 +1,79 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "317284fe-89d3-49f2-a69e-d00b08131c76",
+      "qType": "masterobject"
+    },
+    "qMetaDef": {
+      "title": "Вертикальная линия",
+      "description": "",
+      "tags": []
+    },
+    "qHyperCubeDef": {
+      "qDimensions": [],
+      "qMeasures": [],
+      "qInterColumnSortOrder": [],
+      "qInitialDataFetch": [],
+      "qReductionMode": "N",
+      "qMode": "S",
+      "qPseudoDimPos": -1,
+      "qNoOfLeftDims": -1,
+      "qMaxStackedCells": 5000,
+      "qCalcCond": {},
+      "qTitle": {},
+      "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+      },
+      "qColumnOrder": [],
+      "qExpansionState": [],
+      "qLayoutExclude": {
+        "qHyperCubeDef": {
+          "qDimensions": [],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [],
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": []
+        }
+      }
+    },
+    "showTitles": false,
+    "title": "",
+    "subtitle": "",
+    "footnote": "",
+    "showDetails": false,
+    "responsive": "all",
+    "markdown": "",
+    "images": [],
+    "background": {
+      "isUsed": true,
+      "size": "fitHeight",
+      "position": "centerCenter",
+      "url": {
+        "qStaticContentUrlDef": {
+          "qUrl": "/appcontent/e80d11be-4838-4c4b-8a7d-1168f7c52fd4/Vertical_line_All.png"
+        }
+      }
+    },
+    "visualization": "text-image",
+    "labelExpression": {
+      "qStringExpression": {
+        "qExpr": "'Вертикальная линия'"
+      }
+    },
+    "masterVersion": 0.96
+  },
+  "qChildren": []
+}

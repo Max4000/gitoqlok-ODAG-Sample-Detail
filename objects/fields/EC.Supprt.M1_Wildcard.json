@@ -1,0 +1,10 @@
+{
+  "qName": "EC.Supprt.M1_Wildcard",
+  "qTags": [
+    "$text",
+    "$ascii"
+  ],
+  "qSrcTables": [
+    "Support"
+  ]
+}

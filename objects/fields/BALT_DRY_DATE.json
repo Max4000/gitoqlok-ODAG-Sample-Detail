@@ -1,0 +1,14 @@
+{
+  "qName": "BALT_DRY_DATE",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date",
+    "$key"
+  ],
+  "qSrcTables": [
+    "IND_LINK",
+    "BaltDryInd"
+  ]
+}

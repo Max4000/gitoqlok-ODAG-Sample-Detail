@@ -1,0 +1,12 @@
+{
+  "qName": "Страна",
+  "qTags": [
+    "$text",
+    "$key"
+  ],
+  "qSrcTables": [
+    "T_global_population",
+    "T_TravelRestrictions",
+    "Link"
+  ]
+}

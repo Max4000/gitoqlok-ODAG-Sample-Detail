@@ -1,0 +1,14 @@
+{
+  "qName": "ДатаEC2",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date",
+    "$key"
+  ],
+  "qSrcTables": [
+    "Инд_ПортебЦен",
+    "Link2"
+  ]
+}

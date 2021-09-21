@@ -1,0 +1,10 @@
+{
+  "qName": "ГодКварталEC",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "Link2"
+  ]
+}

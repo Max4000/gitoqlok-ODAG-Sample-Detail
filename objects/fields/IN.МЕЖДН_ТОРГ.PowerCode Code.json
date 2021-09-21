@@ -1,0 +1,10 @@
+{
+  "qName": "IN.МЕЖДН_ТОРГ.PowerCode Code",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "МедународнаяТорговляИмпортЭкспорт"
+  ]
+}

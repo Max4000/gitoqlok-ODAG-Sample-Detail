@@ -1,0 +1,10 @@
+{
+  "qName": "EC.CSI_300.Объём",
+  "qTags": [
+    "$text",
+    "$ascii"
+  ],
+  "qSrcTables": [
+    "CSI_300"
+  ]
+}

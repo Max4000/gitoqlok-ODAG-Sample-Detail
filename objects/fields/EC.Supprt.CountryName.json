@@ -1,0 +1,10 @@
+{
+  "qName": "EC.Supprt.CountryName",
+  "qTags": [
+    "$text",
+    "$ascii"
+  ],
+  "qSrcTables": [
+    "Support"
+  ]
+}

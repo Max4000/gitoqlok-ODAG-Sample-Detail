@@ -1,0 +1,9 @@
+{
+  "qName": "EC.IND_POTREB_ЦЕН_К_ПРЕД",
+  "qTags": [
+    "$numeric"
+  ],
+  "qSrcTables": [
+    "Инд_ПортебЦен"
+  ]
+}

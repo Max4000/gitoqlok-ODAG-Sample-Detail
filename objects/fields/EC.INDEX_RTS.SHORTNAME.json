@@ -1,0 +1,9 @@
+{
+  "qName": "EC.INDEX_RTS.SHORTNAME",
+  "qTags": [
+    "$text"
+  ],
+  "qSrcTables": [
+    "Index_RTS"
+  ]
+}

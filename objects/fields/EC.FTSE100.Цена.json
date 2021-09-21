@@ -1,0 +1,10 @@
+{
+  "qName": "EC.FTSE100.Цена",
+  "qTags": [
+    "$text",
+    "$ascii"
+  ],
+  "qSrcTables": [
+    "FTSE100"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "qName": "EC.CSI_300.Макс.",
+  "qTags": [
+    "$numeric"
+  ],
+  "qSrcTables": [
+    "CSI_300"
+  ]
+}

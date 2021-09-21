@@ -1,0 +1,10 @@
+{
+  "qName": "EC.LBR_OUT.Flag Codes",
+  "qTags": [
+    "$text",
+    "$ascii"
+  ],
+  "qSrcTables": [
+    "LABOR_OUT"
+  ]
+}

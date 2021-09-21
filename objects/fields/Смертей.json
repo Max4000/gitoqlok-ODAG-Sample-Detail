@@ -1,0 +1,10 @@
+{
+  "qName": "Смертей",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "covid19_yandex"
+  ]
+}

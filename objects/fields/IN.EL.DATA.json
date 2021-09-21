@@ -1,0 +1,14 @@
+{
+  "qName": "IN.EL.DATA",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date",
+    "$key"
+  ],
+  "qSrcTables": [
+    "Электроенергия",
+    "Link2"
+  ]
+}

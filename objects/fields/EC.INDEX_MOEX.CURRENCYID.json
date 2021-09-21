@@ -1,0 +1,10 @@
+{
+  "qName": "EC.INDEX_MOEX.CURRENCYID",
+  "qTags": [
+    "$text",
+    "$ascii"
+  ],
+  "qSrcTables": [
+    "Index_Moex"
+  ]
+}

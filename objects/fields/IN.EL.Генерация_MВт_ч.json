@@ -1,0 +1,10 @@
+{
+  "qName": "IN.EL.Генерация_MВт_ч",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "Электроенергия"
+  ]
+}

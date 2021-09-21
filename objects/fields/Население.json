@@ -1,0 +1,10 @@
+{
+  "qName": "Население",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "T_global_population"
+  ]
+}

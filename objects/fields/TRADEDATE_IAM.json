@@ -1,0 +1,14 @@
+{
+  "qName": "TRADEDATE_IAM",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date",
+    "$key"
+  ],
+  "qSrcTables": [
+    "IAM",
+    "IND_LINK"
+  ]
+}

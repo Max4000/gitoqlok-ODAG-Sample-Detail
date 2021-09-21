@@ -1,0 +1,564 @@
+///$tab Загрузка Ан
+//------------------------------------------------------------------------
+
+Support : NoConcatenate
+Load
+	AutoNumberHash128( floor(EC.Supprt.Date), EC.Supprt.CountryName)  as key32,
+	EC.Supprt.CountryName, 
+     EC.Supprt.CountryCode, 
+  	 EC.Supprt.Date,
+     [EC.Supprt.C1_School closing], 
+     EC.Supprt.C1_Flag, 
+     [EC.Supprt.C2_Workplace closing], 
+     EC.Supprt.C2_Flag, 
+     [EC.Supprt.C3_Cancel public events], 
+     EC.Supprt.C3_Flag, 
+     [EC.Supprt.C4_Restrictions on gatherings], 
+     EC.Supprt.C4_Flag, 
+     [EC.Supprt.C5_Close public transport], 
+     EC.Supprt.C5_Flag, 
+     [EC.Supprt.C6_Stay at home requirements], 
+     EC.Supprt.C6_Flag, 
+     num#([EC.Supprt.C7_Restrictions on internal movement])  as [EC.Supprt.C7_Restrictions on internal movement], 
+     EC.Supprt.C7_Flag, 
+     num#([EC.Supprt.C8_International travel controls]) as [EC.Supprt.C8_International travel controls], 
+     [EC.Supprt.E1_Income support], 
+     EC.Supprt.E1_Flag, 
+     [EC.Supprt.E2_Debt/contract relief], 
+     [EC.Supprt.E3_Fiscal measures], 
+     [EC.Supprt.E4_International support], 
+     [EC.Supprt.H1_Public information campaigns], 
+     EC.Supprt.H1_Flag, 
+     [EC.Supprt.H2_Testing policy], 
+     [EC.Supprt.H3_Contact tracing], 
+     [EC.Supprt.H4_Emergency investment in healthcare], 
+     num#([EC.Supprt.H5_Investment in vaccines]) as [EC.Supprt.H5_Investment in vaccines], 
+     EC.Supprt.M1_Wildcard, 
+     EC.Supprt.ConfirmedCases, 
+     EC.Supprt.ConfirmedDeaths, 
+     EC.Supprt.StringencyIndex, 
+     EC.Supprt.StringencyIndexForDisplay, 
+     EC.Supprt.StringencyLegacyIndex, 
+     EC.Supprt.StringencyLegacyIndexForDisplay, 
+     num#(EC.Supprt.GovernmentResponseIndex) as EC.Supprt.GovernmentResponseIndex, 
+     EC.Supprt.GovernmentResponseIndexForDisplay, 
+     EC.Supprt.ContainmentHealthIndex, 
+     EC.Supprt.ContainmentHealthIndexForDisplay, 
+     num#(EC.Supprt.EconomicSupportIndex) as EC.Supprt.EconomicSupportIndex,
+     EC.Supprt.EconomicSupportIndexForDisplay
+FROM
+[lib://Economic/Support__.qvd]
+(qvd)
+where Match(Year(EC.Supprt.Date),2020)
+;
+
+
+LABOR_OUT : 
+  LOAD 
+  AutoNumberHash128(ОтчетДата, [Страна]) as key31,
+    ОтчетДата, 
+     EC.LBR_OUT.LOCATION, 
+     EC.LBR_OUT.Country, 
+     EC.LBR_OUT.SUBJECT, 
+     EC.LBR_OUT.Subject, 
+     EC.LBR_OUT.MEASURE, 
+     EC.LBR_OUT.Measure, 
+     EC.LBR_OUT.FREQUENCY, 
+     EC.LBR_OUT.Frequency, 
+     EC.LBR_OUT.TIME, 
+     EC.LBR_OUT.Year, 
+     EC.LBR_OUT.Month, 
+     EC.LBR_OUT.Сезон, 
+     EC.LBR_OUT.Time, 
+     [EC.LBR_OUT.Unit Code], 
+     EC.LBR_OUT.Unit, 
+     [EC.LBR_OUT.PowerCode Code], 
+     EC.LBR_OUT.PowerCode, 
+     [EC.LBR_OUT.Reference Period Code], 
+     [EC.LBR_OUT.Reference Period], 
+     EC.LBR_OUT.Value, 
+     [EC.LBR_OUT.Flag Codes], 
+     EC.LBR_OUT.Flags, 
+     Страна, 
+     ОтчетГодКвартал
+  FROM
+  [lib://Economic/LABOR_OUT__.qvd]
+  (qvd)
+//Where Match(Year(ОтчетДата),2019,2020)  
+  ;
+
+
+/// ЗДЕСЬ
+Link2:  NoConcatenate
+Load
+  Distinct
+	AutoNumberHash128([ОтчетДата], [Страна]) as key31,
+  ОтчетДата as [ДатаEC],
+  Страна    as [СтранаEC]
+ Resident [LABOR_OUT]
+ 
+ ;
+ 
+Drop Fields [Страна] From LABOR_OUT;
+
+Drop Fields ОтчетДата,Страна From LABOR_OUT ;
+
+Concatenate(Link2)
+Load
+ Distinct
+ AutoNumberHash128( floor(EC.Supprt.Date), EC.Supprt.CountryName) as key32,
+ EC.Supprt.Date 		as [ДатаEC],
+ EC.Supprt.Date         as [ДатаEC5],
+ EC.Supprt.CountryName	as [СтранаEC]
+Resident Support ;
+
+
+// Link2:  Concatenate
+// Load
+//   Distinct
+// 	//AutoNumberHash128(  floor(EC.Supprt.Date), EC.Supprt.CountryName) as key32,
+//     [ДатаEC4] ,
+//     [ДатаEC4] as [ДатаEC],
+//     EC.Supprt.CountryName    as [СтранаEC]
+//  Resident [Support]
+ 
+ ;
+
+CSI_300 :
+LOAD ОтчетДата as TRADEDATE_CSI_300, 
+     EC.CSI_300.Цена, 
+     EC.CSI_300.Откр., 
+     num(Replace([EC.CSI_300.Макс.],'.','')) as [EC.CSI_300.Макс.],
+     EC.CSI_300.Мин., 
+     EC.CSI_300.Объём, 
+     [EC.CSI_300.Изм. %]
+FROM
+[lib://Economic/CSI_300__.qvd]
+(qvd)
+Where Match(Year(ОтчетДата),2019,2020)
+;
+
+FTSE100 :
+LOAD //ОтчетДата, 
+     EC.FTSE100.Дата as TRADEDATE_FTSE100, 
+     EC.FTSE100.Цена, 
+     EC.FTSE100.Откр., 
+     num(Replace([EC.FTSE100.Макс.],'.','')) as [EC.FTSE100.Макс.],     
+     EC.FTSE100.Мин., 
+     EC.FTSE100.Объём, 
+     [EC.FTSE100.Изм. %]
+FROM
+[lib://Economic/FTSE100__.qvd]
+(qvd)
+Where Match(Year(ОтчетДата),2019,2020)
+;
+IAM :
+LOAD // ОтчетДата, 
+     DATE as  TRADEDATE_IAM, 
+     EC.IAM.Value
+FROM
+[lib://Economic/IAM__.qvd]
+(qvd)
+where match(Year(DATE),2019,2020);
+
+Index_Moex : 
+LOAD TRADEDATE as  TRADEDATE_MOEX, 
+     EC.INDEX_MOEX.Сезон, 
+     EC.INDEX_MOEX.BOARDID, 
+     EC.INDEX_MOEX.SECID, 
+     EC.INDEX_MOEX.SHORTNAME, 
+     EC.INDEX_MOEX.NAME, 
+     EC.INDEX_MOEX.CLOSE, 
+     EC.INDEX_MOEX.OPEN, 
+     EC.INDEX_MOEX.HIGH, 
+     EC.INDEX_MOEX.LOW, 
+     EC.INDEX_MOEX.VALUE, 
+     EC.INDEX_MOEX.DURATION, 
+     EC.INDEX_MOEX.YIELD, 
+     EC.INDEX_MOEX.DECIMALS, 
+     EC.INDEX_MOEX.CAPITALIZATION, 
+     EC.INDEX_MOEX.CURRENCYID, 
+     EC.INDEX_MOEX.DIVISOR, 
+     EC.INDEX_MOEX.%Key_document_C43808E78BAC97C6//, 
+     //ОтчетДата
+FROM
+[lib://Economic/Index_Moex__.qvd]
+(qvd);
+
+Index_RTS :
+LOAD TRADEDATE as TRADEDATE_RTS, 
+     EC.INDEX_RTS.Сезон, 
+     EC.INDEX_RTS.BOARDID, 
+     EC.INDEX_RTS.SECID, 
+     EC.INDEX_RTS.SHORTNAME, 
+     EC.INDEX_RTS.NAME, 
+     EC.INDEX_RTS.CLOSE, 
+     EC.INDEX_RTS.OPEN, 
+     EC.INDEX_RTS.HIGH, 
+     EC.INDEX_RTS.LOW, 
+     EC.INDEX_RTS.VALUE, 
+     EC.INDEX_RTS.DURATION, 
+     EC.INDEX_RTS.YIELD, 
+     EC.INDEX_RTS.DECIMALS, 
+     EC.INDEX_RTS.CAPITALIZATION, 
+     EC.INDEX_RTS.CURRENCYID, 
+     EC.INDEX_RTS.DIVISOR, 
+     EC.INDEX_RTS.%Key_document_C43808E78BAC97C6//, 
+     //ОтчетДата
+FROM
+[lib://Economic/Index_RTS__.qvd]
+(qvd);
+
+IND_LINK : NoConcatenate
+Load
+ Distinct 
+  TRADEDATE_RTS as [ДатаEC] ,
+  Date(TRADEDATE_RTS) as IND_DATA,
+  TRADEDATE_RTS
+  Resident Index_RTS ;
+  
+Concatenate (IND_LINK)
+Load
+ Distinct
+ TRADEDATE_MOEX as [ДатаEC],
+ Date(TRADEDATE_MOEX) as IND_DATA,
+ TRADEDATE_MOEX 
+ Resident Index_Moex ;
+
+Join (IND_LINK)
+Load
+Distinct
+ TRADEDATE_IAM as [ДатаEC],
+Date(TRADEDATE_IAM) as IND_DATA, 
+ TRADEDATE_IAM 
+ Resident IAM ;
+
+Concatenate (IND_LINK)
+Load
+Distinct
+ TRADEDATE_FTSE100 as [ДатаEC],
+ Date(TRADEDATE_FTSE100) as IND_DATA, 
+ TRADEDATE_FTSE100 
+ Resident FTSE100 ;
+
+Concatenate (IND_LINK)
+Load
+Distinct
+ TRADEDATE_CSI_300 as [ДатаEC],
+Date(TRADEDATE_CSI_300) as IND_DATA,  
+ TRADEDATE_CSI_300 
+ Resident CSI_300 ;
+
+Concatenate(Link2)
+Load
+  Distinct	
+  IND_DATA as  [ДатаEC]  
+ Resident IND_LINK;
+
+// Concatenate(Link)
+// Load
+//   Distinct	
+//   IND_DATA as Дата ,
+//   IND_DATA as  [ДатаEC]  
+//  Resident IND_LINK;
+ 
+Инд_ПортебЦен:
+LOAD 
+  ЗначениеК_пред_периоду as EC.IND_POTREB_ЦЕН_К_ПРЕД,   
+  Date(ОтчетДата) as   [ДатаEC2] , 
+  ЗначениеК_декабрюПредГода as EC.IND_POTREB_ЦЕН_К_ДЕК_ПРОШЛ_ГОДА
+FROM
+[lib://Economic/ИндексПотребительскихЦен__.qvd] (qvd)
+Where Year(ОтчетДата)>= 2008
+;
+
+СреднеДушГод : NoConcatenate
+LOAD 
+  ОтчетДата as ДатаEC1, 
+  EC.СреднеДушГод.Год, 
+  EC.СреднеДушГод.Сезон, 
+  EC.СреднеДушГод.РублейМесяц, 
+  EC.СреднеДушГод.ПроцПредудущемуПериоду, 
+  EC.СреднеДушГод.ОтчетДата
+FROM
+[lib://Economic/СреднеДушГод__.qvd]
+(qvd)
+//where Match(Year(ОтчетДата),2019,2020)
+;
+
+СреднеДушКв : NoConcatenate
+LOAD 
+  ОтчетДата as ДатаEC1, 	
+  EC.СреднеДушКв.Сезон, 
+  EC.СреднеДушКв.КварталСтр, 
+  EC.СреднеДушКв.РублейМесяц, 
+  EC.СреднеДушКв.ПроцСоотвПериодуПрошлогоГода, 
+  EC.СреднеДушКв.ПроцПредудущемуПериоду, 
+  EC.СреднеДушКв.ОтчетДата
+FROM
+[lib://Economic/СреднеДушКв__.qvd]
+(qvd)
+//where Match(Year(ОтчетДата),2019,2020)
+;
+
+
+Concatenate(Link2)
+Load
+  Distinct	
+  [ДатаEC2],
+  Dual(Year(ДатаEC2)&'-'&Month(ДатаEC2), Year(ДатаEC2)*100+Month(ДатаEC2)) 			as ГодМесяцEC2,  
+  [ДатаEC2]  as  [ДатаEC]  
+ Resident Инд_ПортебЦен;
+
+Concatenate(Link2)Add
+Load
+  Distinct
+
+  [ДатаEC1]  as  [ДатаEC]  ,
+  ДатаEC1    
+ Resident СреднеДушГод;
+
+
+Concatenate(Link2)Add
+Load
+  Distinct
+
+  [ДатаEC1]  as  [ДатаEC]  ,
+  ДатаEC1    
+ Resident СреднеДушКв;
+
+//----------------------------------------------------------------------------------------------------------------------------
+
+BaltDryInd : NoConcatenate
+Load
+    Floor(Date) as BALT_DRY_DATE, 
+    BaltDryInd.Цена, 
+    BaltDryInd.Откр, 
+    num(Replace(BaltDryInd.Макс,'.','')) as BaltDryInd.Макс, 
+    BaltDryInd.Мин, 
+    BaltDryInd.Объём, 
+    BaltDryInd.Изм_%
+FROM
+[lib://Industry/BaltDryInd.qvd]
+(qvd) ;
+
+Concatenate (IND_LINK)
+Load
+Distinct
+ BALT_DRY_DATE as [ДатаEC],
+ Date(BALT_DRY_DATE) as IND_DATA, 
+ BALT_DRY_DATE 
+ Resident BaltDryInd ;
+
+Join(Link2)
+Load
+  Distinct	
+  IND_DATA as  [ДатаEC]  
+ Resident IND_LINK;
+ 
+ 
+ Электроенергия : NoConcatenate
+ LOAD 
+ 	 РегиональныйПоказатель  as IN.EL.РегиональныйПоказатель, 
+     Floor(ОтчетДата) as IN.EL.DATA, 
+     num(Генерация_MВт_ч)   as IN.EL.Генерация_MВт_ч, 
+     num(Потребление_МВт_ч) as IN.EL.Потребление_МВт_ч
+FROM
+[lib://Industry/EЭC_РОССИИ.qvd]
+(qvd);
+
+Join(Link2)
+Load
+  Distinct	
+  IN.EL.DATA as  [ДатаEC]  ,
+  IN.EL.DATA
+ Resident Электроенергия;
+
+// ИНВ_АКТ_МОС : NoConcatenate
+// LOAD 
+//      ИНВ_АКТ_МОС.global_id							as IN., 
+//      ИНВ_АКТ_МОС.NameInInformationSource			as IN., 
+//      ИНВ_АКТ_МОС.PresentationType					as IN., 
+//      ИНВ_АКТ_МОС.SubSource							as IN., 
+//      ИНВ_АКТ_МОС.ID									as IN., 
+//      ИНВ_АКТ_МОС.AttributeOfIndex					as IN., 
+//      ИНВ_АКТ_МОС.Source								as IN., 
+//      ИНВ_АКТ_МОС.Name								as IN., 
+//      Value											as IN., 
+//      ОтчетДата										as ИНВ_АКТ_ДАТА,
+// FROM
+// [lib://Industry/ИНВ_АКТ_МОС.qvd]
+// (qvd);
+
+Индекс_предпринимательской_уверенности : NoConcatenate
+Load
+  Сезон			as IN.ИНД_ПРЕПР_УВЕР.Сезон, 
+  Год			as IN.ИНД_ПРЕПР_УВЕР.Год, 
+  Месяц			as IN.ИНД_ПРЕПР_УВЕР.Месяц, 
+  добыча_полезных_ископаемых	as IN.ИНД_ПРЕПР_УВЕР.добыча_полезных_ископаемых, 
+  Енергетика					as IN.ИНД_ПРЕПР_УВЕР.Енергетика, 
+  обрабатывающие_производства	as IN.ИНД_ПРЕПР_УВЕР.обрабатывающие_производства, 
+  ОтчетДата						as IN.ИНД_ПРЕПР_УВЕР.ОтчетДата,
+  ОтчетДата as IND_ПРЕДПР_УВЕР_ДАТА  
+FROM
+[lib://Industry/Индекс_предпринимательской_уверенности.qvd]
+(qvd);
+
+Join(Link2)
+Load
+  Distinct	
+  IND_ПРЕДПР_УВЕР_ДАТА as  [ДатаEC]  ,
+  IND_ПРЕДПР_УВЕР_ДАТА
+ Resident Индекс_предпринимательской_уверенности;
+
+Объем_отгруженных_товаров : NoConcatenate
+LOAD [Наименование вида деятельности родительская] as IN.ОБ_ОТГР_ТОВ.Вид_деятельности, 
+//     [Наименование вида деятельности], 
+     [Код ОКВЭД2]								   as IN.ОБ_ОТГР_ТОВ.Код, 
+//     Сезон, 
+     ОтчетДата									   as IN.ОБ_ОТГР_ТОВ.Дата, 
+//     Месяц											as IN.ОБ_ОТГР_ТОВ., 
+//     Год											as IN.ОБ_ОТГР_ТОВ., 
+     ОбъемМлнРуб									as IN.ОБ_ОТГР_ТОВ.ОбъемМлнРуб,//, 
+//     ЗначенияРодителькойГруппы						as IN.ОБ_ОТГР_ТОВ.
+     ОтчетДата									   as ОБ_ОТГР_ТОВ_DATA
+FROM
+[lib://Industry/Объем_отгруженных_товаров_собственного_производства.qvd]
+(qvd)
+Where ЗначенияРодителькойГруппы = 1
+;
+
+Join(Link2)
+Load
+  Distinct	
+  ОБ_ОТГР_ТОВ_DATA as  [ДатаEC]  ,
+  ОБ_ОТГР_ТОВ_DATA
+ Resident Объем_отгруженных_товаров;
+ 
+ Индекс_промышленнго_производства : NoConcatenate
+ LOAD 
+   AutoNumberHash128(Floor(ОтчетДата), СубъектРФ) as key41,
+   Сезон				as IN.ИНД_ПРОМ_ПРОИЗВ.Сезон, 
+   Субъект				as IN.ИНД_ПРОМ_ПРОИЗВ.Субъект, 
+   ПодСубъект			as IN.ИНД_ПРОМ_ПРОИЗВ.ПодСубъект., 
+   Кпредыдущ_Месяцу%	as IN.ИНД_ПРОМ_ПРОИЗВ.Кпредыдущ_Месяцу%, 
+   К_соотв_месяцу%		as IN.ИНД_ПРОМ_ПРОИЗВ.К_соотв_месяцу%, 
+   К_соотв_периодуу%	as IN.ИНД_ПРОМ_ПРОИЗВ.К_соотв_периодуу%, 
+   ДанныеПоСубъекту		as IN.ИНД_ПРОМ_ПРОИЗВ.ДанныеПоСубъекту, 
+   СубъектРФ			as IN.ИНД_ПРОМ_ПРОИЗВ.СубъектРФ, 
+   ОтчетДата			as ИНД_ПРОМ_ПРОИЗВ_ДАТА
+ FROM
+ [lib://Industry/индексы_промышленного_произв.qvd]
+ (qvd)
+ Where ДанныеПоСубъекту = 1
+ ;
+
+Join(Link2)
+Load
+  Distinct	
+  key41 ,
+  ИНД_ПРОМ_ПРОИЗВ_ДАТА 			as  [ДатаEC]  ,
+  IN.ИНД_ПРОМ_ПРОИЗВ.СубъектРФ	as  [ОкругРФ] , 
+  ИНД_ПРОМ_ПРОИЗВ_ДАТА
+ Resident Индекс_промышленнго_производства;
+ 
+Drop Field ИНД_ПРОМ_ПРОИЗВ_ДАТА From  Индекс_промышленнго_производства ;
+
+
+
+МедународнаяТорговляИмпортЭкспорт: NoConcatenate
+LOAD 
+	AutoNumberHash128(Floor(IN.МЕЖДН_ТОРГ.ОтчетДата), IN.МЕЖДН_ТОРГ.CountryRUS) as key42,
+	 IN.МЕЖДН_ТОРГ.Country, 
+     IN.МЕЖДН_ТОРГ.SUBJECT, 
+     IN.МЕЖДН_ТОРГ.Subject, 
+     IN.МЕЖДН_ТОРГ.LOCATION, 
+     IN.МЕЖДН_ТОРГ.MEASURE, 
+     IN.МЕЖДН_ТОРГ.Measure, 
+     IN.МЕЖДН_ТОРГ.FREQUENCY, 
+     IN.МЕЖДН_ТОРГ.Frequency, 
+     IN.МЕЖДН_ТОРГ.TIME, 
+     IN.МЕЖДН_ТОРГ.Time, 
+     [IN.МЕЖДН_ТОРГ.Unit Code], 
+     IN.МЕЖДН_ТОРГ.Unit, 
+     [IN.МЕЖДН_ТОРГ.PowerCode Code], 
+     IN.МЕЖДН_ТОРГ.PowerCode, 
+     [IN.МЕЖДН_ТОРГ.Reference Period Code], 
+     [IN.МЕЖДН_ТОРГ.Reference Period], 
+     IN.МЕЖДН_ТОРГ.Value, 
+     [IN.МЕЖДН_ТОРГ.Flag Codes], 
+     IN.МЕЖДН_ТОРГ.Flags, 
+     IN.МЕЖДН_ТОРГ.CountryRUS, 
+     IN.МЕЖДН_ТОРГ.Year, 
+     IN.МЕЖДН_ТОРГ.Month, 
+     IN.МЕЖДН_ТОРГ.Сезон, 
+     IN.МЕЖДН_ТОРГ.ОтчетДата
+FROM
+[lib://Industry/МеждународнТоргМесяц.qvd]
+(qvd);
+
+
+Join(Link2)
+Load
+  Distinct	
+  key42 ,
+  IN.МЕЖДН_ТОРГ.CountryRUS 		 as  [СтранаEC] ,
+  Floor(IN.МЕЖДН_ТОРГ.ОтчетДата) as  [ДатаEC]  ,  
+  Floor(IN.МЕЖДН_ТОРГ.ОтчетДата) as  МЕЖДН_ТОРГ_ДАТА
+ Resident МедународнаяТорговляИмпортЭкспорт;
+
+ИнвестиционнаяАктивностьМосква : NoConcatenate
+LOAD 
+     IN.ИНВ_АКТ_МОС.global_id, 
+     IN.ИНВ_АКТ_МОС.NameInInformationSource, 
+     IN.ИНВ_АКТ_МОС.PresentationType, 
+     IN.ИНВ_АКТ_МОС.SubSource, 
+     IN.ИНВ_АКТ_МОС.ID, 
+     IN.ИНВ_АКТ_МОС.AttributeOfIndex, 
+     IN.ИНВ_АКТ_МОС.Source, 
+     IN.ИНВ_АКТ_МОС.Name,   
+     IN.Value as IN.ИНВ_АКТ_МОС.Value,
+     floor(IN.ОтчетДата) as ИНВ_АКТ_МОС_DATA
+FROM
+[lib://Industry/ИНВ_АКТ_МОС.qvd]
+(qvd);
+
+ДдинамикаПеревозок : NoConcatenate
+LOAD 
+     Тыс_тонн_жд		as IN.ТРАНС.Тыс_тонн_жд, 
+     Тыс_тонн_море		as IN.ТРАНС.Тыс_тонн_море, 
+     млн_тонн_км_жд		as IN.ТРАНС.млн_тонн_км_жд, 
+     млн_тонн_км_море	as IN.ТРАНС.млн_тонн_км_море, 
+     ОтчетДата			as ТРАНС_ДАТА
+FROM
+[lib://Industry/Траснпорт.qvd]
+(qvd);
+
+join (Link2)
+Load
+  Distinct
+    ТРАНС_ДАТА as  [ДатаEC]  , 
+    Dual(Year(ТРАНС_ДАТА)&'-'&Month(ТРАНС_ДАТА), Year(ТРАНС_ДАТА)*100+Month(ТРАНС_ДАТА)) as ГодМесяцТРАН, 
+    ТРАНС_ДАТА
+    Resident ДдинамикаПеревозок ;
+
+Join(Link2)
+Load
+  Distinct	
+  ИНВ_АКТ_МОС_DATA   as  [ДатаEC]  ,  
+  ИНВ_АКТ_МОС_DATA
+ Resident ИнвестиционнаяАктивностьМосква;
+
+
+tmp_link2 : NoConcatenate
+Load
+  *,  
+	Dual(Year(IND_ПРЕДПР_УВЕР_ДАТА)&'-'&Month(IND_ПРЕДПР_УВЕР_ДАТА), Year(IND_ПРЕДПР_УВЕР_ДАТА)*100+Month(IND_ПРЕДПР_УВЕР_ДАТА)) as ГодМесяцIPR,  
+  Dual(Year(ДатаEC1)&'-'&Month(ДатаEC1), Year(ДатаEC1)*100+Month(ДатаEC1)) 								as ГодМесяцEC1,
+  Dual(Year(ДатаEC1)&'-'&Ceil(Month(ДатаEC1)/3)&' кв', Year(ДатаEC1)*10+Ceil(Month(ДатаEC1)/3)) 			as ГодКварталEC1,  
+  Dual(Year(ДатаEC)&'-'&Ceil(Month(ДатаEC)/3)&' кв', Year(ДатаEC)*10+Ceil(Month(ДатаEC)/3)) 			as ГодКварталEC,
+  Dual(Year(ДатаEC)&'-'&Month(ДатаEC), Year(ДатаEC)*100+Month(ДатаEC)) 								as ГодМесяцEC
+ Resident Link2 ;
+ 
+ Drop Table Link2 ;
+ Rename Table tmp_link2 to Link2 ;

@@ -1,0 +1,10 @@
+{
+  "qName": "EC.LBR_OUT.Year",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "LABOR_OUT"
+  ]
+}

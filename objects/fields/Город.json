@@ -1,0 +1,9 @@
+{
+  "qName": "Город",
+  "qTags": [
+    "$text"
+  ],
+  "qSrcTables": [
+    "Link"
+  ]
+}

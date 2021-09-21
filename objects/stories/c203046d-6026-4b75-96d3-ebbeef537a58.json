@@ -1,0 +1,49 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "c203046d-6026-4b75-96d3-ebbeef537a58",
+      "qType": "story"
+    },
+    "qMetaDef": {
+      "title": "Моя новая история 125",
+      "description": "Моя новая история 126",
+      "tags": [],
+      "annotation": ""
+    },
+    "rank": -1,
+    "qChildListDef": {
+      "qData": {
+        "rank": "/rank"
+      }
+    },
+    "thumbnail": {
+      "qStaticContentUrlDef": {}
+    }
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "ZFepSG",
+          "qType": "slide"
+        },
+        "qMetaDef": {},
+        "qChildListDef": {
+          "qData": {
+            "title": "/title",
+            "srcPath": "/srcPath",
+            "style": "/style",
+            "dataPath": "/dataPath",
+            "visualizationType": "/visualizationType",
+            "position": "/position",
+            "visualization": "/visualization",
+            "sheetId": "/sheetId",
+            "ratio": "/ratio"
+          }
+        },
+        "rank": 2
+      },
+      "qChildren": []
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "qName": "BaltDryInd.Изм_%",
+  "qTags": [
+    "$numeric"
+  ],
+  "qSrcTables": [
+    "BaltDryInd"
+  ]
+}

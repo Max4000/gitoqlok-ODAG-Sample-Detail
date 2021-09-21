@@ -1,0 +1,14 @@
+{
+  "qName": "TRADEDATE_CSI_300",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date",
+    "$key"
+  ],
+  "qSrcTables": [
+    "CSI_300",
+    "IND_LINK"
+  ]
+}

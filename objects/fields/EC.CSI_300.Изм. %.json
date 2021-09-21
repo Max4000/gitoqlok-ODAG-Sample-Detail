@@ -1,0 +1,9 @@
+{
+  "qName": "EC.CSI_300.Изм. %",
+  "qTags": [
+    "$numeric"
+  ],
+  "qSrcTables": [
+    "CSI_300"
+  ]
+}

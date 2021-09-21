@@ -1,0 +1,77 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "51089819-d49f-4e35-8afd-5dd68f9f39ff",
+      "qType": "masterobject"
+    },
+    "qMetaDef": {
+      "title": "СТРАНА",
+      "description": "",
+      "tags": []
+    },
+    "qChildListDef": {
+      "qData": {
+        "info": "/qInfo"
+      }
+    },
+    "showTitles": false,
+    "title": "",
+    "subtitle": "",
+    "footnote": "",
+    "showDetails": false,
+    "visualization": "filterpane",
+    "labelExpression": {
+      "qStringExpression": {
+        "qExpr": "'СТРАНА'"
+      }
+    },
+    "masterVersion": 0.96
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "1d102245-edad-4403-991a-8d81cd3ae9ed",
+          "qType": "listbox"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Страна"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByState": 1,
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "hTJTAU"
+          },
+          "qFrequencyMode": "N",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [],
+          "qExpressions": [],
+          "qOtherTotalSpec": {}
+        },
+        "showTitles": true,
+        "title": "СТРАНА",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "visualization": "listbox"
+      },
+      "qChildren": []
+    }
+  ]
+}

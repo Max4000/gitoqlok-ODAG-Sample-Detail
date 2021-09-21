@@ -1,0 +1,12 @@
+{
+  "qName": "EC.Supprt.Date",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date"
+  ],
+  "qSrcTables": [
+    "Support"
+  ]
+}

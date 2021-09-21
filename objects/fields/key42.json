@@ -1,0 +1,12 @@
+{
+  "qName": "key42",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$key"
+  ],
+  "qSrcTables": [
+    "МедународнаяТорговляИмпортЭкспорт",
+    "Link2"
+  ]
+}

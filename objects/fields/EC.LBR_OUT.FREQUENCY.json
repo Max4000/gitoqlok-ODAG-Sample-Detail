@@ -1,0 +1,10 @@
+{
+  "qName": "EC.LBR_OUT.FREQUENCY",
+  "qTags": [
+    "$text",
+    "$ascii"
+  ],
+  "qSrcTables": [
+    "LABOR_OUT"
+  ]
+}

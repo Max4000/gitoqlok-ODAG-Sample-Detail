@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "jMuPeD",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Индекс самоизоляции",
+    "qDef": "Avg([Индекс])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Индекс самоизоляции'",
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#f8981d",
+        "index": 9
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "Индекс самоизоляции",
+    "description": "",
+    "tags": []
+  }
+}

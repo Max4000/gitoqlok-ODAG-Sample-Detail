@@ -1,0 +1,10 @@
+{
+  "qName": "C_Type",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "T_OxCGRT"
+  ]
+}

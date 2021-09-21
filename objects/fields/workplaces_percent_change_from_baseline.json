@@ -1,0 +1,7 @@
+{
+  "qName": "workplaces_percent_change_from_baseline",
+  "qTags": [],
+  "qSrcTables": [
+    "T_GlobalMobilityReport"
+  ]
+}

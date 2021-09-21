@@ -1,0 +1,10 @@
+{
+  "qName": "EC.INDEX_RTS.SECID",
+  "qTags": [
+    "$text",
+    "$ascii"
+  ],
+  "qSrcTables": [
+    "Index_RTS"
+  ]
+}

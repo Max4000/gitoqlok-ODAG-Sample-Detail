@@ -1,0 +1,10 @@
+{
+  "qName": "EC.INDEX_MOEX.BOARDID",
+  "qTags": [
+    "$text",
+    "$ascii"
+  ],
+  "qSrcTables": [
+    "Index_Moex"
+  ]
+}

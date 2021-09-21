@@ -1,0 +1,10 @@
+{
+  "qName": "IN.EL.Потребление_МВт_ч",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "Электроенергия"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "qName": "Flights_7avg",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "T2_number-of-flights"
+  ]
+}

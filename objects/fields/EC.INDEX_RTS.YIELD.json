@@ -1,0 +1,10 @@
+{
+  "qName": "EC.INDEX_RTS.YIELD",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "Index_RTS"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "QtDq",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Пешком",
+    "qDef": "Avg({<[transportation_type]= {'walking'}>} [Value]) / 100 - 1",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#7db8da",
+        "index": 5
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "Пешком",
+    "description": "",
+    "tags": []
+  }
+}

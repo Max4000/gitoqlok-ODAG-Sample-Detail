@@ -1,0 +1,9 @@
+{
+  "qName": "EC.INDEX_RTS.OPEN",
+  "qTags": [
+    "$numeric"
+  ],
+  "qSrcTables": [
+    "Index_RTS"
+  ]
+}

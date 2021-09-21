@@ -1,0 +1,14 @@
+{
+  "qName": "ИНВ_АКТ_МОС_DATA",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date",
+    "$key"
+  ],
+  "qSrcTables": [
+    "ИнвестиционнаяАктивностьМосква",
+    "Link2"
+  ]
+}

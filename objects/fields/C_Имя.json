@@ -1,0 +1,9 @@
+{
+  "qName": "C_Имя",
+  "qTags": [
+    "$text"
+  ],
+  "qSrcTables": [
+    "T_OxCGRT"
+  ]
+}

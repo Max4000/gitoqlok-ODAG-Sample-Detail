@@ -1,0 +1,12 @@
+{
+  "qName": "key1",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$key"
+  ],
+  "qSrcTables": [
+    "covid19_yandex",
+    "Link"
+  ]
+}

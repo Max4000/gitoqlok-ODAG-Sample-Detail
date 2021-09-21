@@ -1,0 +1,12 @@
+{
+  "qName": "DateN3",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date"
+  ],
+  "qSrcTables": [
+    "T_OxCGRT"
+  ]
+}

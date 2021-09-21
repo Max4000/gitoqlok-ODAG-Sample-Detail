@@ -1,0 +1,14 @@
+{
+  "qName": "Travel_Date",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date",
+    "$text",
+    "$ascii"
+  ],
+  "qSrcTables": [
+    "T_TravelRestrictions"
+  ]
+}

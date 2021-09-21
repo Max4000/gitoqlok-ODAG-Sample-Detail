@@ -1,0 +1,10 @@
+{
+  "qName": "BaltDryInd.Макс",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "BaltDryInd"
+  ]
+}

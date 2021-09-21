@@ -1,0 +1,10 @@
+{
+  "qName": "EC.INDEX_MOEX.YIELD",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "Index_Moex"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "qName": "ДатаEC1",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date",
+    "$key"
+  ],
+  "qSrcTables": [
+    "СреднеДушГод",
+    "СреднеДушКв",
+    "Link2"
+  ]
+}

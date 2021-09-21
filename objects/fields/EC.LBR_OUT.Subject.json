@@ -1,0 +1,10 @@
+{
+  "qName": "EC.LBR_OUT.Subject",
+  "qTags": [
+    "$text",
+    "$ascii"
+  ],
+  "qSrcTables": [
+    "LABOR_OUT"
+  ]
+}

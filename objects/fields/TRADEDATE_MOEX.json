@@ -1,0 +1,14 @@
+{
+  "qName": "TRADEDATE_MOEX",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date",
+    "$key"
+  ],
+  "qSrcTables": [
+    "Index_Moex",
+    "IND_LINK"
+  ]
+}

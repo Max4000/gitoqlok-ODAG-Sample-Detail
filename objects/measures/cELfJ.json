@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "cELfJ",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Заражений",
+    "qDef": "Sum([Заражений])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#7db8da",
+        "index": 5
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "Заражений",
+    "description": "",
+    "tags": []
+  }
+}

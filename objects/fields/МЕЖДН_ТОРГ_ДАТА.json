@@ -1,0 +1,12 @@
+{
+  "qName": "МЕЖДН_ТОРГ_ДАТА",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date"
+  ],
+  "qSrcTables": [
+    "Link2"
+  ]
+}

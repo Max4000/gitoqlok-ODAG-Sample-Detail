@@ -1,0 +1,10 @@
+{
+  "qName": "Flights_Num",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "T2_number-of-flights"
+  ]
+}

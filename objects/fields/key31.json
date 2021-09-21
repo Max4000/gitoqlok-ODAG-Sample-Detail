@@ -1,0 +1,12 @@
+{
+  "qName": "key31",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$key"
+  ],
+  "qSrcTables": [
+    "LABOR_OUT",
+    "Link2"
+  ]
+}

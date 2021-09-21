@@ -1,0 +1,10 @@
+{
+  "qName": "Выздоровлений",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "covid19_yandex"
+  ]
+}

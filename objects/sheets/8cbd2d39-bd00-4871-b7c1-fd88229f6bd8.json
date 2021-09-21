@@ -1,0 +1,475 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "8cbd2d39-bd00-4871-b7c1-fd88229f6bd8",
+      "qType": "sheet"
+    },
+    "qMetaDef": {
+      "title": "Дашборд / Сводка",
+      "description": "Дашборд / Сводка"
+    },
+    "rank": -1.25,
+    "thumbnail": {
+      "qStaticContentUrlDef": {}
+    },
+    "columns": 36,
+    "rows": 18,
+    "cells": [
+      {
+        "name": "ce280476-e317-4368-a38b-5ea22cf376bc",
+        "type": "qlik-multi-kpi",
+        "col": 0,
+        "row": 0,
+        "colspan": 4,
+        "rowspan": 1,
+        "bounds": {
+          "y": 0,
+          "x": 0,
+          "width": 11.11111111111111,
+          "height": 5.555555555555555
+        }
+      },
+      {
+        "name": "743b0d4f-2579-48e0-8a6f-dfa5b3412ae6",
+        "type": "qlik-multi-kpi",
+        "col": 0,
+        "row": 3,
+        "colspan": 4,
+        "rowspan": 1,
+        "bounds": {
+          "y": 16.666666666666664,
+          "x": 0,
+          "width": 11.11111111111111,
+          "height": 5.555555555555555
+        }
+      },
+      {
+        "name": "0ee70957-ee09-44d5-aea4-91364f035f13",
+        "type": "qlik-multi-kpi",
+        "col": 0,
+        "row": 4,
+        "colspan": 4,
+        "rowspan": 1,
+        "bounds": {
+          "y": 22.22222222222222,
+          "x": 0,
+          "width": 11.11111111111111,
+          "height": 5.555555555555555
+        }
+      },
+      {
+        "name": "bb7df330-63a6-4ceb-aa79-125c31cf6e0e",
+        "type": "qlik-multi-kpi",
+        "col": 0,
+        "row": 5,
+        "colspan": 4,
+        "rowspan": 1,
+        "bounds": {
+          "y": 27.77777777777778,
+          "x": 0,
+          "width": 11.11111111111111,
+          "height": 5.555555555555555
+        }
+      },
+      {
+        "name": "379188ab-324a-4f4b-b236-ea98a5a5621c",
+        "type": "qlik-multi-kpi",
+        "col": 0,
+        "row": 6,
+        "colspan": 4,
+        "rowspan": 1,
+        "bounds": {
+          "y": 33.33333333333333,
+          "x": 0,
+          "width": 11.11111111111111,
+          "height": 5.555555555555555
+        }
+      },
+      {
+        "name": "3fbc9086-992c-4b7d-8aab-7de46407371d",
+        "type": "qlik-multi-kpi",
+        "col": 0,
+        "row": 8,
+        "colspan": 4,
+        "rowspan": 10,
+        "bounds": {
+          "y": 44.44444444444444,
+          "x": 0,
+          "width": 11.11111111111111,
+          "height": 55.55555555555556
+        }
+      },
+      {
+        "name": "mdeRxyz",
+        "type": "qlik-multi-kpi",
+        "col": 0,
+        "row": 2,
+        "colspan": 4,
+        "rowspan": 1,
+        "bounds": {
+          "y": 11.11111111111111,
+          "x": 0,
+          "width": 11.11111111111111,
+          "height": 5.555555555555555
+        }
+      },
+      {
+        "name": "pXuUw",
+        "type": "qlik-multi-kpi",
+        "col": 0,
+        "row": 1,
+        "colspan": 4,
+        "rowspan": 1,
+        "bounds": {
+          "y": 5.555555555555555,
+          "x": 0,
+          "width": 11.11111111111111,
+          "height": 5.555555555555555
+        }
+      },
+      {
+        "name": "GHJgUYn",
+        "type": "qlik-multi-kpi",
+        "col": 0,
+        "row": 7,
+        "colspan": 4,
+        "rowspan": 1,
+        "bounds": {
+          "y": 38.88888888888889,
+          "x": 0,
+          "width": 11.11111111111111,
+          "height": 5.555555555555555
+        }
+      }
+    ],
+    "qChildListDef": {
+      "qData": {
+        "title": "/title"
+      }
+    },
+    "gridResolution": "large",
+    "layoutOptions": {
+      "mobileLayout": "LIST",
+      "extendable": false,
+      "sheetMode": "RESPONSIVE"
+    },
+    "labelExpression": "Дашборд / Сводка",
+    "height": 100,
+    "pxHeight": 1024,
+    "pxWidth": 1280,
+    "actions": [
+      {
+        "actionLabel": "",
+        "actionType": "",
+        "bookmark": "",
+        "field": "",
+        "variable": "",
+        "showSystemVariables": false,
+        "softLock": false,
+        "value": "",
+        "cId": "mZnxFx"
+      }
+    ]
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "3fbc9086-992c-4b7d-8aab-7de46407371d",
+          "qType": "qlik-multi-kpi"
+        },
+        "qExtendsId": "359bd3f9-a585-4afe-ac1a-10d48e7bedd8",
+        "qMetaDef": {}
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "379188ab-324a-4f4b-b236-ea98a5a5621c",
+          "qType": "qlik-multi-kpi"
+        },
+        "qExtendsId": "89a3a339-77e0-4138-b7f2-3996970efd67",
+        "qMetaDef": {}
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "743b0d4f-2579-48e0-8a6f-dfa5b3412ae6",
+          "qType": "qlik-multi-kpi"
+        },
+        "qExtendsId": "59f28b7d-5b1f-41aa-bea2-45605da7a81c",
+        "qMetaDef": {}
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "0ee70957-ee09-44d5-aea4-91364f035f13",
+          "qType": "qlik-multi-kpi"
+        },
+        "qExtendsId": "85d61599-1d73-4cbc-93c4-55b42862fa0a",
+        "qMetaDef": {}
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "bb7df330-63a6-4ceb-aa79-125c31cf6e0e",
+          "qType": "qlik-multi-kpi"
+        },
+        "qExtendsId": "05261cbc-d5c1-47e9-b1dd-a138b213c1cf",
+        "qMetaDef": {}
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "mdeRxyz",
+          "qType": "qlik-multi-kpi"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qLabel": "Дашборд / Сводка",
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "=''",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qDec": ",",
+                  "qThou": " "
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "YwBTae",
+                "numFormatFromTemplate": true,
+                "autoFormatTemplate": "0A",
+                "labelColor": {
+                  "index": -1,
+                  "color": "#709B22"
+                },
+                "conditionalValueColor": false,
+                "valueColor": {
+                  "index": 6,
+                  "color": "#4477aa"
+                },
+                "useLink": true,
+                "kpiLink": "8cbd2d39-bd00-4871-b7c1-fd88229f6bd8",
+                "hideLabel": false,
+                "hideValue": true,
+                "groupByDimension": false,
+                "groupByDimensionValue": "",
+                "ovParams": true,
+                "size": "small",
+                "labelOrientation": "horizontal",
+                "labelOrder": "first",
+                "fontStyles": "",
+                "textAlignment": "flex-start",
+                "valueIcon": "",
+                "iconPosition": "label",
+                "iconOrder": "first",
+                "iconSize": "",
+                "infographic": false,
+                "embeddedItem": "",
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qExpression": "Стартовый экран",
+                  "qAttribute": true,
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              },
+              "sheetLink": "8cbd2d39-bd00-4871-b7c1-fd88229f6bd8"
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0
+          ],
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 16,
+              "qHeight": 80
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": []
+            }
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "options": {
+          "dimShowAs": "segment",
+          "dimDivideBy": "auto",
+          "dimensionsOrientation": "horizontal",
+          "dimLabelOrientation": "top attached",
+          "dimLabelSize": "",
+          "dimHideLabels": false,
+          "dimCenteredLabels": true,
+          "dimHideBorders": false,
+          "dimHideInternalBorders": false,
+          "labelOrientation": "horizontal",
+          "labelOrder": "first",
+          "size": "mini",
+          "divideBy": "auto",
+          "backgroundColor": {
+            "index": -1,
+            "color": "#292929"
+          },
+          "verticalAlign": "center-aligned-items",
+          "styles": ".label *\n{\nfont-weight: normal;\nfont-size:  120%;\nfont-family: 'sans serif';\n}"
+        },
+        "visualization": "qlik-multi-kpi",
+        "version": 1.4,
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "kpi",
+          "iconChar": "puzzle",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Multi KPI",
+          "description": "A tiled chart that shows one KPI per dimension value and measure.\nVersion: 0.95.0",
+          "template": "qlik-multi-kpi",
+          "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+          "isThirdParty": true,
+          "author": "Alexander Nerush <ale.nerush@gmail.com>",
+          "bundle": {
+            "id": "qlik-visualization-bundle",
+            "name": "Qlik Visualization bundle",
+            "description": "This is a set of supported objects that expands the visualization capabilities of Qlik Sense. These can be used in addition to the objects found under 'Charts'. For support conditions and limitations, see the documentation."
+          },
+          "dependencies": {
+            "qlik-sense": ">=5.5.x"
+          },
+          "homepage": "https://github.com/alner/qsSimpleKPI",
+          "installer": "QlikExtensionBundler",
+          "keywords": "qlik-sense, visualization",
+          "license": "MIT",
+          "preview": "multikpi.png",
+          "repository": "https://github.com/alner/qsSimpleKPI",
+          "type": "visualization",
+          "version": "0.95.0",
+          "previewIconURL": "http://localhost:4848/extensions/qlik-multi-kpi/multikpi.png"
+        },
+        "masterVersion": 0.96
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "ce280476-e317-4368-a38b-5ea22cf376bc",
+          "qType": "qlik-multi-kpi"
+        },
+        "qExtendsId": "9bfe3d95-a3ec-4109-9908-0415a3e6e526",
+        "qMetaDef": {}
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "pXuUw",
+          "qType": "qlik-multi-kpi"
+        },
+        "qExtendsId": "d8745a96-9b18-4309-b50c-26a725486c8d",
+        "qMetaDef": {}
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "GHJgUYn",
+          "qType": "qlik-multi-kpi"
+        },
+        "qExtendsId": "9bd690fe-544d-4f4e-ab26-e0fc677df792",
+        "qMetaDef": {}
+      },
+      "qChildren": []
+    }
+  ]
+}

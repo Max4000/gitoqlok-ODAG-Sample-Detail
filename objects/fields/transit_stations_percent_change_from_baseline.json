@@ -1,0 +1,7 @@
+{
+  "qName": "transit_stations_percent_change_from_baseline",
+  "qTags": [],
+  "qSrcTables": [
+    "T_GlobalMobilityReport"
+  ]
+}

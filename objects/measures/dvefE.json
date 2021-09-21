@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "dvefE",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Смертей_Combo",
+    "qDef": "-Sum([Смертей])/1e3",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Смертей'",
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#f93f17",
+        "index": 10
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "Смертей_Combo",
+    "description": "",
+    "tags": []
+  }
+}

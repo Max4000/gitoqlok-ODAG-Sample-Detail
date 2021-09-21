@@ -1,0 +1,10 @@
+{
+  "qName": "ГодМесяцEC",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "Link2"
+  ]
+}

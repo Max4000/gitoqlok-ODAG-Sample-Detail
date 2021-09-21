@@ -1,0 +1,14 @@
+{
+  "qName": "TRADEDATE_RTS",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date",
+    "$key"
+  ],
+  "qSrcTables": [
+    "Index_RTS",
+    "IND_LINK"
+  ]
+}

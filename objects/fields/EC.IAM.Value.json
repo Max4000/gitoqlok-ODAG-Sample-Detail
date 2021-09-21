@@ -1,0 +1,9 @@
+{
+  "qName": "EC.IAM.Value",
+  "qTags": [
+    "$numeric"
+  ],
+  "qSrcTables": [
+    "IAM"
+  ]
+}

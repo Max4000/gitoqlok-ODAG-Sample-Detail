@@ -1,0 +1,9 @@
+{
+  "qName": "EC.IND_POTREB_ЦЕН_К_ДЕК_ПРОШЛ_ГОДА",
+  "qTags": [
+    "$numeric"
+  ],
+  "qSrcTables": [
+    "Инд_ПортебЦен"
+  ]
+}

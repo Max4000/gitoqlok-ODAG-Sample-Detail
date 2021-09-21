@@ -1,0 +1,10 @@
+{
+  "qName": "EC.LBR_OUT.Reference Period",
+  "qTags": [
+    "$text",
+    "$ascii"
+  ],
+  "qSrcTables": [
+    "LABOR_OUT"
+  ]
+}

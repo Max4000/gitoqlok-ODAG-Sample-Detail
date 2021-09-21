@@ -1,0 +1,10 @@
+{
+  "qName": "IN.МЕЖДН_ТОРГ.Reference Period",
+  "qTags": [
+    "$text",
+    "$ascii"
+  ],
+  "qSrcTables": [
+    "МедународнаяТорговляИмпортЭкспорт"
+  ]
+}

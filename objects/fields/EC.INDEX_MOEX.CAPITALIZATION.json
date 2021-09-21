@@ -1,0 +1,10 @@
+{
+  "qName": "EC.INDEX_MOEX.CAPITALIZATION",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "Index_Moex"
+  ]
+}

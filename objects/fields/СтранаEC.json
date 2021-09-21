@@ -1,0 +1,9 @@
+{
+  "qName": "СтранаEC",
+  "qTags": [
+    "$text"
+  ],
+  "qSrcTables": [
+    "Link2"
+  ]
+}

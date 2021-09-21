@@ -1,0 +1,10 @@
+{
+  "qName": "transportation_type",
+  "qTags": [
+    "$text",
+    "$ascii"
+  ],
+  "qSrcTables": [
+    "T2_AppleMobilityTrends"
+  ]
+}

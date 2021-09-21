@@ -1,0 +1,12 @@
+{
+  "qName": "key32",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$key"
+  ],
+  "qSrcTables": [
+    "Support",
+    "Link2"
+  ]
+}

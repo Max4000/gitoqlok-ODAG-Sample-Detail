@@ -1,0 +1,12 @@
+{
+  "qName": "DateN4",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date"
+  ],
+  "qSrcTables": [
+    "T_GlobalMobilityReport"
+  ]
+}

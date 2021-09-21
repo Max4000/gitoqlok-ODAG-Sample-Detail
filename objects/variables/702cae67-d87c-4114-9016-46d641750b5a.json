@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "702cae67-d87c-4114-9016-46d641750b5a",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "currentName",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "T_covid19_ru_index_yandex"
+}

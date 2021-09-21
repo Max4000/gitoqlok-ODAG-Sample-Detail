@@ -1,0 +1,14 @@
+{
+  "qName": "ОБ_ОТГР_ТОВ_DATA",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date",
+    "$key"
+  ],
+  "qSrcTables": [
+    "Объем_отгруженных_товаров",
+    "Link2"
+  ]
+}

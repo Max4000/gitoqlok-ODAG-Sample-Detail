@@ -1,0 +1,10 @@
+{
+  "qName": "EC.INDEX_MOEX.%Key_document_C43808E78BAC97C6",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "Index_Moex"
+  ]
+}

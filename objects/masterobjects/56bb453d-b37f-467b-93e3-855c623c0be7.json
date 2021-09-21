@@ -1,0 +1,77 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "56bb453d-b37f-467b-93e3-855c623c0be7",
+      "qType": "masterobject"
+    },
+    "qMetaDef": {
+      "title": "ДАТА",
+      "description": "",
+      "tags": []
+    },
+    "qChildListDef": {
+      "qData": {
+        "info": "/qInfo"
+      }
+    },
+    "showTitles": false,
+    "title": "",
+    "subtitle": "",
+    "footnote": "",
+    "showDetails": false,
+    "visualization": "filterpane",
+    "labelExpression": {
+      "qStringExpression": {
+        "qExpr": "'ДАТА'"
+      }
+    },
+    "masterVersion": 0.96
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "f12b00bf-2fe7-41ff-8f69-e6451799c067",
+          "qType": "listbox"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Дата"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByState": 1,
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "gXsfAYV"
+          },
+          "qFrequencyMode": "N",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [],
+          "qExpressions": [],
+          "qOtherTotalSpec": {}
+        },
+        "showTitles": true,
+        "title": "ДАТА",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "visualization": "listbox"
+      },
+      "qChildren": []
+    }
+  ]
+}

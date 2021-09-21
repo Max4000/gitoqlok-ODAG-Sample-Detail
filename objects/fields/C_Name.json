@@ -1,0 +1,10 @@
+{
+  "qName": "C_Name",
+  "qTags": [
+    "$text",
+    "$ascii"
+  ],
+  "qSrcTables": [
+    "T_OxCGRT"
+  ]
+}

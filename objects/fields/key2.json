@@ -1,0 +1,12 @@
+{
+  "qName": "key2",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$key"
+  ],
+  "qSrcTables": [
+    "T2_AppleMobilityTrends",
+    "Link"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "qName": "Travel_Airline_Country",
+  "qTags": [
+    "$text"
+  ],
+  "qSrcTables": [
+    "T_TravelRestrictions"
+  ]
+}

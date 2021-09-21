@@ -1,0 +1,12 @@
+{
+  "qName": "key3",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$key"
+  ],
+  "qSrcTables": [
+    "T_OxCGRT",
+    "Link"
+  ]
+}

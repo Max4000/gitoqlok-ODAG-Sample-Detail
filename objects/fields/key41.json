@@ -1,0 +1,12 @@
+{
+  "qName": "key41",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$key"
+  ],
+  "qSrcTables": [
+    "Индекс_промышленнго_производства",
+    "Link2"
+  ]
+}

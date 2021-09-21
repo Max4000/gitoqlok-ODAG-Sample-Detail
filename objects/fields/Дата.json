@@ -1,0 +1,14 @@
+{
+  "qName": "Дата",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date",
+    "$key"
+  ],
+  "qSrcTables": [
+    "T2_number-of-flights",
+    "Link"
+  ]
+}

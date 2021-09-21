@@ -1,0 +1,9 @@
+{
+  "qName": "EC.LBR_OUT.Value",
+  "qTags": [
+    "$numeric"
+  ],
+  "qSrcTables": [
+    "LABOR_OUT"
+  ]
+}

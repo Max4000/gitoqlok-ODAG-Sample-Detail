@@ -1,0 +1,12 @@
+{
+  "qName": "key4",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$key"
+  ],
+  "qSrcTables": [
+    "T_GlobalMobilityReport",
+    "Link"
+  ]
+}

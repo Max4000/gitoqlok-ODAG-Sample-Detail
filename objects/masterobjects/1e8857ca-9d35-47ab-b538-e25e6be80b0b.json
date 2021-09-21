@@ -1,0 +1,77 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "1e8857ca-9d35-47ab-b538-e25e6be80b0b",
+      "qType": "masterobject"
+    },
+    "qMetaDef": {
+      "title": "ГОРОД",
+      "description": "",
+      "tags": []
+    },
+    "qChildListDef": {
+      "qData": {
+        "info": "/qInfo"
+      }
+    },
+    "showTitles": false,
+    "title": "",
+    "subtitle": "",
+    "footnote": "",
+    "showDetails": false,
+    "visualization": "filterpane",
+    "labelExpression": {
+      "qStringExpression": {
+        "qExpr": "'ГОРОД'"
+      }
+    },
+    "masterVersion": 0.96
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "72b8682d-dcdb-4eda-81e7-bbed65e34304",
+          "qType": "listbox"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Город"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByState": 1,
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "cPkYPqk"
+          },
+          "qFrequencyMode": "N",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [],
+          "qExpressions": [],
+          "qOtherTotalSpec": {}
+        },
+        "showTitles": true,
+        "title": "ГОРОД",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "visualization": "listbox"
+      },
+      "qChildren": []
+    }
+  ]
+}

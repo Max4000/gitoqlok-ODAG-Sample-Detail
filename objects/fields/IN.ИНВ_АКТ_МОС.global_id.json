@@ -1,0 +1,10 @@
+{
+  "qName": "IN.ИНВ_АКТ_МОС.global_id",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "ИнвестиционнаяАктивностьМосква"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "qName": "BaltDryInd.Объём",
+  "qTags": [
+    "$text",
+    "$ascii"
+  ],
+  "qSrcTables": [
+    "BaltDryInd"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "8882626e-1aa1-4e1d-afb5-25a17db57285",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "maxdate",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "=Date(Max(Дата))",
+  "tags": []
+}

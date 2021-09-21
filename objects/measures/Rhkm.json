@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "Rhkm",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Заражений_прирост",
+    "qDef": "Sum([Заражений за день])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Заражений'",
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#7db8da",
+        "index": 5
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "Заражений_прирост",
+    "description": "",
+    "tags": []
+  }
+}

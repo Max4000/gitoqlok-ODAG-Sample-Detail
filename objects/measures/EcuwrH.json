@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "EcuwrH",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Выздоровлений",
+    "qDef": "Sum([Выздоровлений])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#46c646",
+        "index": 2
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "Выздоровлений",
+    "description": "",
+    "tags": []
+  }
+}

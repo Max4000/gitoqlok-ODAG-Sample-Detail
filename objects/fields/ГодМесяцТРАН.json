@@ -1,0 +1,10 @@
+{
+  "qName": "ГодМесяцТРАН",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "Link2"
+  ]
+}

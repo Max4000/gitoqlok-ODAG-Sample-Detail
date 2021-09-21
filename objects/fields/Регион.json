@@ -1,0 +1,9 @@
+{
+  "qName": "Регион",
+  "qTags": [
+    "$text"
+  ],
+  "qSrcTables": [
+    "Link"
+  ]
+}

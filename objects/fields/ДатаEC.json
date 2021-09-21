@@ -1,0 +1,14 @@
+{
+  "qName": "ДатаEC",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date",
+    "$key"
+  ],
+  "qSrcTables": [
+    "IND_LINK",
+    "Link2"
+  ]
+}

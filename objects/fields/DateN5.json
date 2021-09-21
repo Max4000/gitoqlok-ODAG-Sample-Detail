@@ -1,0 +1,12 @@
+{
+  "qName": "DateN5",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date"
+  ],
+  "qSrcTables": [
+    "T_covid19_ru_index_yandex"
+  ]
+}

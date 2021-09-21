@@ -1,0 +1,12 @@
+{
+  "qName": "IND_DATA",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date"
+  ],
+  "qSrcTables": [
+    "IND_LINK"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "1f259a28-0416-4191-b807-fd095baf8de4",
+      "qType": "masterobject"
+    },
+    "qMetaDef": {
+      "title": "РЕГИОН",
+      "description": "",
+      "tags": []
+    },
+    "qChildListDef": {
+      "qData": {
+        "info": "/qInfo"
+      }
+    },
+    "showTitles": false,
+    "title": "",
+    "subtitle": "",
+    "footnote": "",
+    "showDetails": false,
+    "visualization": "filterpane",
+    "labelExpression": {
+      "qStringExpression": {
+        "qExpr": "'РЕГИОН'"
+      }
+    },
+    "masterVersion": 0.96
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "8b46aa91-c1c3-4139-b96b-171aaaf2d0c9",
+          "qType": "listbox"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Регион"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByState": 1,
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "sWr"
+          },
+          "qFrequencyMode": "N",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [],
+          "qExpressions": [],
+          "qOtherTotalSpec": {}
+        },
+        "showTitles": true,
+        "title": "РЕГИОН",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "visualization": "listbox"
+      },
+      "qChildren": []
+    }
+  ]
+}

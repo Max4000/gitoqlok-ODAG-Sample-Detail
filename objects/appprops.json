@@ -2,17 +2,27 @@
   {
     "qProperty": {
       "qInfo": {
-        "qId": "NJyaEpQ",
+        "qId": "406fd3f3-a11d-4c46-85f3-90beea59a683",
         "qType": "appprops"
       },
       "qMetaDef": {},
-      "sheetTitleBgColor": "#000000",
-      "sheetTitleGradientColor": "#ffffff",
+      "sheetTitleBgColor": {
+        "color": "#292929",
+        "index": -1
+      },
+      "sheetTitleGradientColor": {
+        "color": "none",
+        "index": 0
+      },
       "sheetTitleColor": "#ffffff",
       "sheetLogoThumbnail": {
-        "qStaticContentUrlDef": {}
+        "qStaticContentUrlDef": {
+          "qUrl": "/appcontent/e80d11be-4838-4c4b-8a7d-1168f7c52fd4/covid-19 particle.jpeg"
+        }
       },
-      "sheetLogoPosition": ""
+      "sheetLogoPosition": "right",
+      "rtl": false,
+      "theme": "sense"
     },
     "qChildren": []
   }
